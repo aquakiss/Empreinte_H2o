@@ -13,5 +13,6 @@
     <string name="title_activity_graphe">Graphe</string>
 	<string name="bt_precedent">Précédent</string>
 	<string name="bt_suivant">Suivant</string>
+	<string name="graphe">Voici le Graphique</string>
     
 </resources>

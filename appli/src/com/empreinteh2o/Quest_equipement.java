@@ -15,7 +15,7 @@ public class Quest_equipement extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_quest_equipement);
 		
-        Button changeButton = (Button) findViewById(R.id.btGoToSecondActivity);
+        Button changeButton = (Button) findViewById(R.id.equipement_suivant_bt);
         changeButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
@@ -23,6 +23,15 @@ public class Quest_equipement extends Activity {
 				startActivity(changeActivity);
 			}
 		});
+        
+        Button changeButton2 = (Button) findViewById(R.id.equipement_precedent_bt);
+        changeButton2.setOnClickListener(new OnClickListener() {
+    		@Override
+    		public void onClick(View arg0) {
+    			Intent changeActivity = new Intent(getApplicationContext(), Quest_eau_domicile.class);
+    			startActivity(changeActivity);
+    		}
+    	});
 	}
 
 	@Override

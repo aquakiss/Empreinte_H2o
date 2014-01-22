@@ -15,7 +15,7 @@ public class Quest_textile extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_quest_textile);
 		
-        Button changeButton = (Button) findViewById(R.id.btGoToSecondActivity);
+        Button changeButton = (Button) findViewById(R.id.textil_suivant_bt);
         changeButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
@@ -23,6 +23,15 @@ public class Quest_textile extends Activity {
 				startActivity(changeActivity);
 			}
 		});
+        
+        Button changeButton2 = (Button) findViewById(R.id.textil_precedent_bt);
+        changeButton2.setOnClickListener(new OnClickListener() {
+    		@Override
+    		public void onClick(View arg0) {
+    			Intent changeActivity = new Intent(getApplicationContext(), Quest_equipement.class);
+    			startActivity(changeActivity);
+    		}
+    	});
 	}
 
 	@Override

@@ -15,7 +15,7 @@ public class Quest_eau_domicile extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_quest_eau_domicile);
 		
-        Button changeButton = (Button) findViewById(R.id.btGoToSecondActivity);
+        Button changeButton = (Button) findViewById(R.id.eau_suivant_bt);
         changeButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
@@ -23,6 +23,15 @@ public class Quest_eau_domicile extends Activity {
 				startActivity(changeActivity);
 			}
 		});
+        
+        Button changeButton2 = (Button) findViewById(R.id.eau_precedent_bt);
+        changeButton2.setOnClickListener(new OnClickListener() {
+    		@Override
+    		public void onClick(View arg0) {
+    			Intent changeActivity = new Intent(getApplicationContext(), Quest_alimentation.class);
+    			startActivity(changeActivity);
+    		}
+    	});
 	}
 
 	@Override

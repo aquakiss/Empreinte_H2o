@@ -15,14 +15,24 @@ public class Quest_alimentation extends Activity {
 		super.onCreate(savedInstanceState);		
 		setContentView(R.layout.activity_quest_alimentation);
 		
-        Button changeButton = (Button) findViewById(R.id.btGoToSecondActivity);
+        Button changeButton = (Button) findViewById(R.id.alim_suivant_bt);
         changeButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
 				Intent changeActivity = new Intent(getApplicationContext(), Quest_eau_domicile.class);
 				startActivity(changeActivity);
 			}
-		});}
+		});
+	
+    Button changeButton2 = (Button) findViewById(R.id.alim_precedent_bt);
+    changeButton2.setOnClickListener(new OnClickListener() {
+		@Override
+		public void onClick(View arg0) {
+			Intent changeActivity = new Intent(getApplicationContext(), MainActivity.class);
+			startActivity(changeActivity);
+		}
+	});
+   }
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

@@ -24,12 +24,14 @@
             android:id="@+id/alim_precedent_bt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/bt_precedent" />
 
         <Button
             android:id="@+id/alim_suivant_bt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/bt_suivant" />
     </LinearLayout>
 
