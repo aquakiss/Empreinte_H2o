@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Empreinte H2o</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_bt_1">Adulte</string>
+    <string name="main_bt_2">Enfant</string>
+    <string name="title_activity_quest_alimentation">Quest_alimentation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_quest_textile">Quest_textile</string>
+    <string name="title_activity_quest_eau_domicile">Quest_eau_domicile</string>
+    <string name="title_activity_quest_equipement">Quest_equipement</string>
+    <string name="title_activity_graphe">Graphe</string>
+	<string name="bt_precedent">Précédent</string>
+	<string name="bt_suivant">Suivant</string>
+    
+</resources>
