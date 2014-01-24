@@ -4,11 +4,13 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
 public class MainActivity extends Activity {
+private static final int MENU_ITEM_DIALOG=1;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -34,11 +36,21 @@ public class MainActivity extends Activity {
 		});
 	}
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        menu.add(Menu.NONE, MENU_ITEM_DIALOG, Menu.NONE, "Quitter");
+        //getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+
 	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
+	public boolean onMenuItemSelected(int featureId, MenuItem item) {
+		if(item.getItemId()==MENU_ITEM_DIALOG) {
+			finish();
+		}
 		return true;
 	}
+	
 
 }
