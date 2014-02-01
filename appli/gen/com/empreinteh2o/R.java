@@ -25,22 +25,24 @@ public final class R {
         public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000f;
-        public static final int alim_precedent_bt=0x7f080007;
-        public static final int alim_suivant_bt=0x7f080008;
+        public static final int TextView01=0x7f080007;
+        public static final int action_settings=0x7f080011;
+        public static final int alim_precedent_bt=0x7f080009;
+        public static final int alim_suivant_bt=0x7f08000a;
+        public static final int button1=0x7f080005;
         public static final int button2=0x7f080006;
         public static final int change_to_alimentation=0x7f080000;
         public static final int change_to_eau_domicile=0x7f080002;
         public static final int change_to_equipement=0x7f080003;
         public static final int change_to_textile=0x7f080004;
-        public static final int eau_precedent_bt=0x7f080009;
-        public static final int eau_suivant_bt=0x7f08000a;
-        public static final int equipement_precedent_bt=0x7f08000b;
-        public static final int equipement_suivant_bt=0x7f08000c;
-        public static final int main_bt_1=0x7f080005;
+        public static final int eau_precedent_bt=0x7f08000b;
+        public static final int eau_suivant_bt=0x7f08000c;
+        public static final int equipement_precedent_bt=0x7f08000d;
+        public static final int equipement_suivant_bt=0x7f08000e;
+        public static final int main_bt_1=0x7f080008;
         public static final int textView1=0x7f080001;
-        public static final int textil_precedent_bt=0x7f08000d;
-        public static final int textil_suivant_bt=0x7f08000e;
+        public static final int textil_precedent_bt=0x7f08000f;
+        public static final int textil_suivant_bt=0x7f080010;
     }
     public static final class layout {
         public static final int activity_choix_questionnaire=0x7f030000;
@@ -51,6 +53,7 @@ public final class R {
         public static final int activity_quest_equipement=0x7f030005;
         public static final int activity_quest_textile=0x7f030006;
         public static final int ch_quest_alimentation=0x7f030007;
+        public static final int conseils=0x7f030008;
     }
     public static final class menu {
         public static final int choix_questionnaire=0x7f070000;
@@ -67,14 +70,17 @@ public final class R {
         public static final int action_settings=0x7f050001;
         public static final int alimentation=0x7f05000f;
         public static final int app_name=0x7f050000;
+        public static final int bienvenue=0x7f050014;
         public static final int bt_precedent=0x7f05000a;
         public static final int bt_suivant=0x7f05000b;
+        public static final int conseils=0x7f050016;
         public static final int eau_domicile=0x7f050010;
         public static final int equipement=0x7f050011;
         public static final int graphe=0x7f05000c;
         public static final int hello_world=0x7f05000e;
         public static final int main_bt_1=0x7f050002;
         public static final int main_bt_2=0x7f050003;
+        public static final int retour=0x7f050015;
         public static final int textile=0x7f050012;
         public static final int title_activity_choix_questionnaire=0x7f05000d;
         public static final int title_activity_graphe=0x7f050009;

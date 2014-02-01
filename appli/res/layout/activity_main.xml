@@ -10,12 +10,22 @@
     android:background="#b5c1db" >
 
     <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/bienvenue"
+        android:textSize="25sp" />
+
+    <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="42dp"
         android:text="@string/app_name"
         android:textSize="35sp" />
 
@@ -23,18 +33,8 @@
         android:id="@+id/main_bt_1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="54dp"
         android:text="@string/Lancer_les_questionnaires" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/main_bt_1"
-        android:layout_below="@+id/main_bt_1"
-        android:layout_marginTop="45dp"
-        android:text="@string/main_bt_1" />
 
 </RelativeLayout>

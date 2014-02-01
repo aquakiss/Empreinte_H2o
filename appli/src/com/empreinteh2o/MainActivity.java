@@ -24,14 +24,7 @@ public class MainActivity extends Activity {
 			}
 		});
         
-        Button changeButton2 = (Button) findViewById(R.id.button2);
-        changeButton2.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View arg0) {
-				Intent changeActivity = new Intent(getApplicationContext(), Choix_questionnaire.class);
-				startActivity(changeActivity);
-			}
-		});
+        
 	}
 
 	@Override
