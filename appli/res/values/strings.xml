@@ -16,12 +16,14 @@
     <string name="graphe">Voici le Graphique</string>
     <string name="title_activity_choix_questionnaire">Choix_questionnaire</string>
     <string name="hello_world">Hello world!</string>
-	<string name="alimentation">alimentation</string>
-	<string name="eau_domicile">eau domicile</string>
-	<string name="equipement">equipement</string>
-	<string name="textile">textile</string>
-	<string name="Choix_des_questionnaires">Choix des questionnaires</string>
-	<string name="bienvenue">Bienvenue</string>
-	<string name="retour">Retour a l\'accueil</string>
-	<string name="conseils">Conseils</string>
+    <string name="alimentation">alimentation</string>
+    <string name="eau_domicile">eau domicile</string>
+    <string name="equipement">equipement</string>
+    <string name="textile">textile</string>
+    <string name="Choix_des_questionnaires">Choix des questionnaires</string>
+    <string name="bienvenue">Bienvenue</string>
+    <string name="retour">Retour a l\'accueil</string>
+    <string name="conseils">Conseils</string>
+    <string name="title_activity_conseils2">Conseils2</string>
+
 </resources>

@@ -25,11 +25,11 @@ public class Graphe extends Activity {
 			}
 		});
         
-        Button changeButton2 = (Button) findViewById(R.id.button2);
+        Button changeButton2 = (Button) findViewById(R.id.button6);
         changeButton2.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				Intent changeActivity = new Intent(getApplicationContext(), Conseils.class);
+				Intent changeActivity = new Intent(getApplicationContext(), Conseils2.class);
 				startActivity(changeActivity);
 			}
 		});

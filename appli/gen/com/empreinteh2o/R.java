@@ -30,7 +30,7 @@ public final class R {
         public static final int alim_precedent_bt=0x7f080009;
         public static final int alim_suivant_bt=0x7f08000a;
         public static final int button1=0x7f080005;
-        public static final int button2=0x7f080006;
+        public static final int button6=0x7f080006;
         public static final int change_to_alimentation=0x7f080000;
         public static final int change_to_eau_domicile=0x7f080002;
         public static final int change_to_equipement=0x7f080003;
@@ -47,23 +47,25 @@ public final class R {
     }
     public static final class layout {
         public static final int activity_choix_questionnaire=0x7f030000;
-        public static final int activity_graphe=0x7f030001;
-        public static final int activity_main=0x7f030002;
-        public static final int activity_quest_alimentation=0x7f030003;
-        public static final int activity_quest_eau_domicile=0x7f030004;
-        public static final int activity_quest_equipement=0x7f030005;
-        public static final int activity_quest_textile=0x7f030006;
-        public static final int ch_quest_alimentation=0x7f030007;
-        public static final int conseils=0x7f030008;
+        public static final int activity_conseils2=0x7f030001;
+        public static final int activity_graphe=0x7f030002;
+        public static final int activity_main=0x7f030003;
+        public static final int activity_quest_alimentation=0x7f030004;
+        public static final int activity_quest_eau_domicile=0x7f030005;
+        public static final int activity_quest_equipement=0x7f030006;
+        public static final int activity_quest_textile=0x7f030007;
+        public static final int ch_quest_alimentation=0x7f030008;
+        public static final int conseils=0x7f030009;
     }
     public static final class menu {
         public static final int choix_questionnaire=0x7f070000;
-        public static final int graphe=0x7f070001;
-        public static final int main=0x7f070002;
-        public static final int quest_alimentation=0x7f070003;
-        public static final int quest_eau_domicile=0x7f070004;
-        public static final int quest_equipement=0x7f070005;
-        public static final int quest_textile=0x7f070006;
+        public static final int conseils2=0x7f070001;
+        public static final int graphe=0x7f070002;
+        public static final int main=0x7f070003;
+        public static final int quest_alimentation=0x7f070004;
+        public static final int quest_eau_domicile=0x7f070005;
+        public static final int quest_equipement=0x7f070006;
+        public static final int quest_textile=0x7f070007;
     }
     public static final class string {
         public static final int Choix_des_questionnaires=0x7f050013;
@@ -84,6 +86,7 @@ public final class R {
         public static final int retour=0x7f050015;
         public static final int textile=0x7f050012;
         public static final int title_activity_choix_questionnaire=0x7f05000d;
+        public static final int title_activity_conseils2=0x7f050017;
         public static final int title_activity_graphe=0x7f050009;
         public static final int title_activity_quest_alimentation=0x7f050004;
         public static final int title_activity_quest_eau_domicile=0x7f050007;
