@@ -31,6 +31,8 @@ private static final int MENU_ITEM_DIALOG=1;
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+        menu.add(Menu.NONE, MENU_ITEM_DIALOG, Menu.NONE, "R");
+        menu.add(Menu.NONE, MENU_ITEM_DIALOG, Menu.NONE, "Quitter");
         menu.add(Menu.NONE, MENU_ITEM_DIALOG, Menu.NONE, "Quitter");
         //getMenuInflater().inflate(R.menu.main, menu);
         return true;

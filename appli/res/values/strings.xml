@@ -23,7 +23,10 @@
     <string name="Choix_des_questionnaires">Choix des questionnaires</string>
     <string name="bienvenue">Bienvenue</string>
     <string name="retour">Retour a l\'accueil</string>
-    <string name="conseils">Conseils</string>
     <string name="title_activity_conseils2">Conseils2</string>
+    <string name="optionmenu1">Conseils2</string>
+    <string name="conseils">Conseils</string>
+    <string name="optionmenu_quit">Quitter</string>
+    <string name="optionmenu_a_propos">A propos</string>
 
 </resources>
