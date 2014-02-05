@@ -27,6 +27,9 @@ public final class R {
     public static final class id {
         public static final int TextView01=0x7f080009;
         public static final int action_settings=0x7f080013;
+        public static final int action_settings_accueil=0x7f080014;
+        public static final int action_settings_apropos=0x7f080016;
+        public static final int action_settings_quit=0x7f080015;
         public static final int alim_precedent_bt=0x7f08000a;
         public static final int alim_suivant_bt=0x7f08000b;
         public static final int button1=0x7f080006;
