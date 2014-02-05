@@ -2,18 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#6495ED"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Quest_alimentation"
-    android:background="#6495ED" >
-
-    <TextView
-        android:id="@+id/ttView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Lancer_les_questionnaires" />
+    tools:context=".Quest_alimentation" >
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -26,10 +20,10 @@
             android:id="@+id/alim_precedent_bt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
             android:layout_weight="0.86"
             android:background="#99CCCC"
-            android:text="@string/bt_precedent"
-            android:layout_marginRight="20dp" />
+            android:text="@string/bt_precedent" />
 
         <Button
             android:id="@+id/alim_suivant_bt"
@@ -38,23 +32,109 @@
             android:layout_weight="1.14"
             android:background="#99CCCC"
             android:text="@string/bt_suivant" />
-        
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/ttView1"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/ttView1" >
+        android:layout_height="wrap_content"        
+        android:orientation="vertical" >
 
         <TextView
-            android:id="@+id/textView2"
-            android:layout_width="fill_parent"
+            android:id="@+id/quest1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.68"
+            android:text="@string/Aq1"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="9dp"
+            android:layout_marginTop="9dp" >
+
+            <TextView
+                android:id="@+id/choix1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="@string/oui"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/choix2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/non"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/quest2"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@android:color/white"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:text="@string/Aq2"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="9dp" >
+
+            <TextView
+                android:id="@+id/q2choix1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/oui"
+                android:layout_marginRight="20dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/q2choix2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/non"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/quest3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.18"
+            android:text="@string/Aq3"
+            android:textSize="14sp" />
+        
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8.5dp"
+            android:background="#00FF00" >
+
+            <TextView
+                android:id="@+id/q3nom1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:text="@string/Aq3nom"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/q3nom2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="10.76"
+                android:text="@string/Aqcol2"
+                android:textSize="16sp" />
+        </LinearLayout>
+
     </LinearLayout>
 
 </RelativeLayout>
