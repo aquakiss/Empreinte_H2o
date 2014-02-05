@@ -25,5 +25,6 @@
     <string name="retour">Retour a l\'accueil</string>
     <string name="conseils">Conseils</string>
     <string name="title_activity_conseils2">Conseils2</string>
+    <string name="retour2">retour au graphique</string>
 
 </resources>
