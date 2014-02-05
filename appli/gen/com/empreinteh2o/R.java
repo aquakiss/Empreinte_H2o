@@ -26,12 +26,12 @@ public final class R {
     }
     public static final class id {
         public static final int TextView01=0x7f080009;
-        public static final int action_settings=0x7f080013;
-        public static final int action_settings_accueil=0x7f080014;
-        public static final int action_settings_apropos=0x7f080016;
-        public static final int action_settings_quit=0x7f080015;
-        public static final int alim_precedent_bt=0x7f08000a;
-        public static final int alim_suivant_bt=0x7f08000b;
+        public static final int action_settings=0x7f080015;
+        public static final int action_settings_accueil=0x7f080016;
+        public static final int action_settings_apropos=0x7f080018;
+        public static final int action_settings_quit=0x7f080017;
+        public static final int alim_precedent_bt=0x7f08000b;
+        public static final int alim_suivant_bt=0x7f08000c;
         public static final int button1=0x7f080006;
         public static final int button2=0x7f080005;
         public static final int button6=0x7f080007;
@@ -39,15 +39,17 @@ public final class R {
         public static final int change_to_eau_domicile=0x7f080002;
         public static final int change_to_equipement=0x7f080003;
         public static final int change_to_textile=0x7f080004;
-        public static final int eau_precedent_bt=0x7f08000d;
-        public static final int eau_suivant_bt=0x7f08000e;
-        public static final int equipement_precedent_bt=0x7f08000f;
-        public static final int equipement_suivant_bt=0x7f080010;
+        public static final int eau_precedent_bt=0x7f08000f;
+        public static final int eau_suivant_bt=0x7f080010;
+        public static final int equipement_precedent_bt=0x7f080011;
+        public static final int equipement_suivant_bt=0x7f080012;
+        public static final int linearLayout1=0x7f08000d;
         public static final int main_bt_1=0x7f080008;
         public static final int textView1=0x7f080001;
-        public static final int textView2=0x7f08000c;
-        public static final int textil_precedent_bt=0x7f080011;
-        public static final int textil_suivant_bt=0x7f080012;
+        public static final int textView2=0x7f08000e;
+        public static final int textil_precedent_bt=0x7f080013;
+        public static final int textil_suivant_bt=0x7f080014;
+        public static final int ttView1=0x7f08000a;
     }
     public static final class layout {
         public static final int activity_choix_questionnaire=0x7f030000;
@@ -72,6 +74,50 @@ public final class R {
         public static final int quest_textile=0x7f070007;
     }
     public static final class string {
+        public static final int Aq1=0x7f05001f;
+        public static final int Aq2=0x7f050020;
+        public static final int Aq3=0x7f050021;
+        public static final int Aq3c1=0x7f050023;
+        public static final int Aq3c2=0x7f050024;
+        public static final int Aq3c3=0x7f050025;
+        public static final int Aq3c4=0x7f050026;
+        public static final int Aq3c4exemp=0x7f050027;
+        public static final int Aq3c5=0x7f050028;
+        public static final int Aq3nom=0x7f050022;
+        public static final int Aq4c1=0x7f05002a;
+        public static final int Aq4c10=0x7f050037;
+        public static final int Aq4c1exemp=0x7f05002b;
+        public static final int Aq4c2=0x7f05002c;
+        public static final int Aq4c2exemp=0x7f05002d;
+        public static final int Aq4c3=0x7f05002e;
+        public static final int Aq4c3exemp=0x7f05002f;
+        public static final int Aq4c4=0x7f050030;
+        public static final int Aq4c4exemp=0x7f050031;
+        public static final int Aq4c5=0x7f050032;
+        public static final int Aq4c6=0x7f050033;
+        public static final int Aq4c7=0x7f050034;
+        public static final int Aq4c8=0x7f050035;
+        public static final int Aq4c9=0x7f050036;
+        public static final int Aq4nom=0x7f050029;
+        public static final int Aq5c1=0x7f050039;
+        public static final int Aq5c2=0x7f05003a;
+        public static final int Aq5c2exemp=0x7f05003b;
+        public static final int Aq5c3=0x7f05003c;
+        public static final int Aq5c3exemp=0x7f05003d;
+        public static final int Aq5nom=0x7f050038;
+        public static final int Aq6c1=0x7f05003f;
+        public static final int Aq6c1exemp=0x7f050040;
+        public static final int Aq6c2=0x7f050041;
+        public static final int Aq6c2exemp=0x7f050042;
+        public static final int Aq6c3=0x7f050043;
+        public static final int Aq6c3exemp=0x7f050044;
+        public static final int Aq6nom=0x7f05003e;
+        public static final int Aq7c1=0x7f050046;
+        public static final int Aq7c2=0x7f050047;
+        public static final int Aq7nom=0x7f050045;
+        /**  questionnaire Alimentation 
+         */
+        public static final int Aqcol2=0x7f05001e;
         public static final int Choix_des_questionnaires=0x7f050013;
         public static final int Lancer_les_questionnaires=0x7f050005;
         public static final int action_settings=0x7f050001;
@@ -87,9 +133,11 @@ public final class R {
         public static final int hello_world=0x7f05000e;
         public static final int main_bt_1=0x7f050002;
         public static final int main_bt_2=0x7f050003;
+        public static final int non=0x7f05001d;
         public static final int optionmenu1=0x7f050017;
         public static final int optionmenu_a_propos=0x7f05001a;
         public static final int optionmenu_quit=0x7f050019;
+        public static final int oui=0x7f05001c;
         public static final int retour=0x7f050015;
         public static final int retour2=0x7f05001b;
         public static final int textile=0x7f050012;

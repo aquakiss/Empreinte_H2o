@@ -12,7 +12,6 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
-private static final int MENU_ITEM_DIALOG=1;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +24,7 @@ private static final int MENU_ITEM_DIALOG=1;
 			public void onClick(View arg0) {
 				Intent changeActivity = new Intent(getApplicationContext(), Quest_alimentation.class);
 				startActivity(changeActivity);
+				
 			}
 		});
         
@@ -42,15 +42,12 @@ private static final int MENU_ITEM_DIALOG=1;
 	@Override
 	public boolean onMenuItemSelected(int featureId, MenuItem item) {
 	    switch (item.getItemId()) {
-	    		case R.id.action_settings_accueil:
-	    			Toast.makeText(this, "Hello accueil!", Toast.LENGTH_SHORT).show();
-	                return true;
 	  	        case R.id.action_settings_apropos:
 	  	        	Toast.makeText(this, "Hello a propos!", Toast.LENGTH_SHORT).show();
 	   	            return true;
 		    	case R.id.action_settings_quit:
 		    		Toast.makeText(this, "Hello ta quitter!", Toast.LENGTH_SHORT).show();
-		    		onDestroy();
+		    		finish();
 		                return true;
 	           default:
 	 	            return super.onOptionsItemSelected(item);

@@ -51,9 +51,11 @@ public class Graphe extends Activity {
 	@Override
 	public boolean onMenuItemSelected(int featureId, MenuItem item) {
 	    switch (item.getItemId()) {
-	    		case R.id.action_settings_accueil:
-	    			Toast.makeText(this, "Hello accueil!", Toast.LENGTH_SHORT).show();
-	                return true;
+		case R.id.action_settings_accueil:
+			Toast.makeText(this, "redirection en cours", Toast.LENGTH_SHORT).show();
+				Intent changeActivity = new Intent(getApplicationContext(), MainActivity.class);
+				startActivity(changeActivity);
+            return true;
 	  	        case R.id.action_settings_apropos:
 	  	        	Toast.makeText(this, "Hello a propos!", Toast.LENGTH_SHORT).show();
 	   	            return true;
