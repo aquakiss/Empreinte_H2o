@@ -7,17 +7,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity"
-    android:background="#b5c1db" >
-
-    <TextView
-        android:id="@+id/TextView01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="28dp"
-        android:text="@string/bienvenue"
-        android:textSize="25sp" />
+     android:background="@drawable/bgfiche"  >
 
     <TextView
         android:id="@+id/textView1"
@@ -34,7 +24,17 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
         android:text="@string/Lancer_les_questionnaires" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="27dp"
+        android:text="@string/bienvenue"
+        android:textSize="25sp" />
 
 </RelativeLayout>
