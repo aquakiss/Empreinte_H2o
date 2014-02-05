@@ -46,6 +46,10 @@
             android:name="com.empreinteh2o.Choix_questionnaire"
             android:label="@string/title_activity_choix_questionnaire" >
         </activity>
+        <activity
+            android:name="com.empreinteh2o.Conseils2"
+            android:label="@string/title_activity_conseils2" >
+        </activity>
     </application>
 
 </manifest>
