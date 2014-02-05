@@ -1,13 +1,15 @@
 package com.empreinteh2o;
 
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 private static final int MENU_ITEM_DIALOG=1;
@@ -31,20 +33,28 @@ private static final int MENU_ITEM_DIALOG=1;
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-      //menu.add(Menu.NONE, MENU_ITEM_DIALOG, Menu.NONE, "@id/");
-      //menu.add(Menu.NONE, MENU_ITEM_DIALOG, Menu.NONE, "Quitter");
-      //menu.add(Menu.NONE, MENU_ITEM_DIALOG, Menu.NONE, "Quitter");
-      getMenuInflater().inflate(R.menu.main, menu);
-        return true;
+      MenuInflater inflater = getMenuInflater();
+      inflater.inflate(R.menu.main, menu);    
+    return true;
     }
 
 
 	@Override
 	public boolean onMenuItemSelected(int featureId, MenuItem item) {
-		if(item.getItemId()==MENU_ITEM_DIALOG) {
-			finish();
-		}
-		return true;
+	    switch (item.getItemId()) {
+	    		case R.id.action_settings_accueil:
+	    			Toast.makeText(this, "Hello accueil!", Toast.LENGTH_SHORT).show();
+	                return true;
+	  	        case R.id.action_settings_apropos:
+	  	        	Toast.makeText(this, "Hello a propos!", Toast.LENGTH_SHORT).show();
+	   	            return true;
+		    	case R.id.action_settings_quit:
+		    		Toast.makeText(this, "Hello ta quitter!", Toast.LENGTH_SHORT).show();
+		    		onDestroy();
+		                return true;
+	           default:
+	 	            return super.onOptionsItemSelected(item);
+	  	    }
 	}
 	
 
