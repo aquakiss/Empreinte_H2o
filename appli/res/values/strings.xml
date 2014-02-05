@@ -28,5 +28,6 @@
     <string name="conseils">Conseils</string>
     <string name="optionmenu_quit">Quitter</string>
     <string name="optionmenu_a_propos">A propos</string>
+    <string name="retour2">retour au graphique</string>
 
 </resources>
