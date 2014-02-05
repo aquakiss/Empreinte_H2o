@@ -76,4 +76,68 @@
 	<string name="Aq7c1">Eau minérale en bouteille (50cL) par jour</string> 
 	<string name="Aq7c2">Eau du robinet (verres 25cl) par jour</string> 
 	
+	<!-- formulaire texite -->
+    
+    <string name="tq1">-> Faîtes-vous attention à acheter du coton biologique? </string>
+    <string name="tq2">-> Achetez vous des produits à base de matériaux recyclés? </string>
+	<string name="tq3">-> En rêgle générale, que faites-vous de vos vêtements quand vous ne les mettez plus?</string>
+	<string name="tq3r1">Le jette à la poubelle</string>
+	<string name="tq3r2">Le donne à quelqu\'un (ou association)</string>
+	<string name="tq3r3">Je conserve tout</string>
+	<string name="tq4col1">La garde robe</string>
+	<string name="tq4col2">Dans ton armoire, combien as-tu de…</string>
+	<string name="tq4col3">En moyenne, combien de temps gardes-tu cet articles?</string>
+	<string name="tq4c1">Tshirt</string>
+	<string name="tq4c2">Chemise</string>
+	<string name="tq4c3">Haut</string>
+	<string name="tq4c3exp">Pull, sweat, polaire…</string>
+	<string name="tq4c4">Pour sortir</string>
+	<string name="tq4c4exp">Veste, parka, manteau…</string>
+	<string name="tq4c5">Bas</string>
+	<string name="tq4c5exp">Jean, pantalon…</string>
+	<string name="tq4c6">Jupe</string>
+	<string name="tq4c7">Chaussure</string>
+	<string name="tq4c7exp">Basket, cuir, toile…</string>
+	    
+	<!-- formulaire eau -->
+	
+	<string name="edq1">Type de chauffe-eau?</string>
+	<string name="edq1r1">Electricité</string>
+	<string name="edq1r2">Gaz naturel</string>
+	<string name="edq1r3">Panneau solaire</string>
+	<string name="edq2">Utilisation du robinet</string>
+	<string name="Fre">Fréquence</string>
+	<string name="edq2c1">Lavabo rempli</string>
+	<string name="edq2c2">Lavabo robinet ouvert</string>
+	<string name="temp">Temps passé :</string>
+	<string name="minute">minute(s)</string>
+	<string name="edq3">Douche</string>
+	<string name="edq4">Bain</string>
+	<string name="edq5">WC</string>
+	<string name="edq6">Consommables</string>
+	<string name="edq7">Loisirs</string>
+	<string name="edq7c1">Piscine</string>
+	<string name="edq7c2">Lavage voiture</string>
+	<string name="edq8">Lessive</string>
+	<string name="edq8c1">Nombre de personne dans la famille</string>
+	<string name="edq8c2">Lave linge</string>
+	<string name="edq8c3">Lessive</string>	
+	<string name="edq8c4">Fait-tu attention aux dossages prescrit sur le bidon de lessive?</string>
+	<string name="edq9">Vaisselle</string>
+	<string name="edq9c1">Mode de nettoyage</string>
+	
+	<!-- formulaire equipement -->
+	
+	<string name="eqcol1">Multimédia</string>	
+	<string name="eqcol2">Possédez vous ce type d\'appareil?</string>
+	<string name="eqcol3">Temps d\'utilisation moyen les jours de semaine (heure/jour)</string>
+	<string name="eqcol4">Temps d\'utilisation moyen le week-end (heure/jour)</string>
+	<string name="eqcol5">Taux de renouvellement</string>
+	<string name="eqcol6">Laissez vous vos appareils en mode veille?</string>
+	<string name="eqc1">Ordinateur écran cathodique</string>
+	<string name="eqc2">Ordinateur écran LCD</string>
+	<string name="eqc3">Ordinateur portable</string>
+	<string name="eqc4">Télévision écran cathodique</string>
+	<string name="eqc5">Télévision écran LCD</string>
+	
 </resources>
