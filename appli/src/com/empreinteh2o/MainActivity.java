@@ -47,7 +47,7 @@ public class MainActivity extends Activity {
 	   	            return true;
 		    	case R.id.action_settings_quit:
 		    		Toast.makeText(this, "Hello ta quitter!", Toast.LENGTH_SHORT).show();
-		    		finish();
+		    		// com.empreinteh2o.Close_all_Activity.closeAllActivities();
 		                return true;
 	           default:
 	 	            return super.onOptionsItemSelected(item);

@@ -9,28 +9,32 @@
     tools:context=".Quest_alimentation" >
 
     <LinearLayout
+        android:id="@+id/linearLayout5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true" >
+        android:layout_alignParentRight="true"
+        style="?android:attr/buttonBarStyle" >
 
         <Button
             android:id="@+id/alim_precedent_bt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="20dp"
-            android:layout_weight="0.84"
+            android:layout_weight="0.45"
             android:background="#99CCCC"
+            style="?android:attr/buttonBarButtonStyle"
             android:text="@string/bt_precedent" />
 
         <Button
             android:id="@+id/alim_suivant_bt"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1.16"
+            android:layout_weight="0.55"
             android:background="#99CCCC"
             android:text="@string/bt_suivant" />
+        
     </LinearLayout>
 
     <LinearLayout
@@ -88,8 +92,8 @@
                 android:id="@+id/cb_q2choix1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/oui"
                 android:layout_marginRight="12dp"
+                android:text="@string/oui"
                 android:textSize="14sp" />
 
             <CheckBox
@@ -107,8 +111,8 @@
             android:layout_weight="0.18"
             android:text="@string/Aq3"
             android:textSize="14sp" />
-        
-        <LinearLayout
+
+        <!-- <LinearLayout
             android:id="@+id/linearLayout4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -130,9 +134,18 @@
                 android:layout_height="match_parent"
                 android:layout_weight="10.76"
                 android:text="@string/Aqcol2"
-                android:textSize="16sp" />
-        </LinearLayout>
-
+                android:textSize="16sp" /> 
+        </LinearLayout> -->
     </LinearLayout>
+
+    <ListView
+        android:id="@+id/LV_q_alimentation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout5"
+        android:layout_alignLeft="@+id/linearLayout5"
+        android:layout_below="@+id/linearLayout1" >
+
+    </ListView>
 
 </RelativeLayout>
