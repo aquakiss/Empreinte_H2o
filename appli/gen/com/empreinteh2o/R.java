@@ -82,7 +82,7 @@ public final class R {
         public static final int activity_quest_eau_domicile=0x7f030005;
         public static final int activity_quest_equipement=0x7f030006;
         public static final int activity_quest_textile=0x7f030007;
-        public static final int activity_textil_lvitem=0x7f030008;
+        public static final int activity_textile_lv_item=0x7f030008;
         public static final int aff_lv_quest_alim=0x7f030009;
         public static final int ch_quest_alimentation=0x7f03000a;
         public static final int conseils=0x7f03000b;

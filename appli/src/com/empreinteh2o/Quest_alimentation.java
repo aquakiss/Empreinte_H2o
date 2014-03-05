@@ -16,12 +16,14 @@ import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
 public class Quest_alimentation extends Activity {
-	private ListView maListViewPersoAlim;
+	private ListView maListViewPersoAlim; // variable pour ma listview
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);		
 		setContentView(R.layout.activity_quest_alimentation);
+		
+/////////////////////////// Changement d'activité //////////////////////////////////
 		
         Button changeButton = (Button) findViewById(R.id.alim_suivant_bt);
         changeButton.setOnClickListener(new OnClickListener() {
@@ -40,6 +42,8 @@ public class Quest_alimentation extends Activity {
 			startActivity(changeActivity);
 		}
 	});
+   
+//////////////ListeView layout Alimentation ////////////////////////////////////////////
     
   //Récupération de la listview créée dans le fichier main.xml
     maListViewPersoAlim = (ListView) findViewById(R.id.LV_q_alimentation);
