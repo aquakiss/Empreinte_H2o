@@ -112,30 +112,6 @@
             android:text="@string/Aq3"
             android:textSize="14sp" />
 
-        <!-- <LinearLayout
-            android:id="@+id/linearLayout4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8.5dp" >
-
-            <TextView
-                android:id="@+id/q3nom1"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginRight="20dp"
-                android:layout_weight="1"
-                android:text="@string/Aq3nom"
-                android:textSize="16sp" />
-
-            <TextView
-                android:id="@+id/q3nom2"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="10.76"
-                android:text="@string/Aqcol2"
-                android:textSize="16sp" /> 
-        </LinearLayout> -->
     </LinearLayout>
 
     <ListView

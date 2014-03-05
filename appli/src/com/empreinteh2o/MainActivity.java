@@ -14,8 +14,8 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
 
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
+	protected void onCreate(Bundle savedInstanceClose_all_Activity) {
+		super.onCreate(savedInstanceClose_all_Activity);
 		setContentView(R.layout.activity_main);
 		
         Button changeButton = (Button) findViewById(R.id.main_bt_1);
@@ -46,7 +46,7 @@ public class MainActivity extends Activity {
 	  	        	Toast.makeText(this, "Hello a propos!", Toast.LENGTH_SHORT).show();
 	   	            return true;
 		    	case R.id.action_settings_quit:
-		    		Toast.makeText(this, "Hello ta quitter!", Toast.LENGTH_SHORT).show();
+		    		Toast.makeText(this, "Merci de ta visite", Toast.LENGTH_SHORT).show();
 		    		// com.empreinteh2o.Close_all_Activity.closeAllActivities();
 		                return true;
 	           default:

@@ -22,7 +22,7 @@ public class Quest_equipement extends Activity {
         changeButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				Intent changeActivity = new Intent(getApplicationContext(), Quest_textile.class);
+				Intent changeActivity = new Intent(getApplicationContext(), Graphe.class);
 				startActivity(changeActivity);
 			}
 		});
@@ -57,7 +57,7 @@ public class Quest_equipement extends Activity {
 	  	        	Toast.makeText(this, "Hello a propos!", Toast.LENGTH_SHORT).show();
 	   	            return true;
 		    	case R.id.action_settings_quit:
-		    		Toast.makeText(this, "Hello ta quitter!", Toast.LENGTH_SHORT).show();
+		    		Toast.makeText(this, "Merci de ta visite", Toast.LENGTH_SHORT).show();
 		    		onDestroy();
 		                return true;
 	           default:

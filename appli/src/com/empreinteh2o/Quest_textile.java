@@ -8,7 +8,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 public class Quest_textile extends Activity {
@@ -22,7 +24,7 @@ public class Quest_textile extends Activity {
         changeButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				Intent changeActivity = new Intent(getApplicationContext(), Graphe.class);
+				Intent changeActivity = new Intent(getApplicationContext(), Quest_eau_domicile.class);
 				startActivity(changeActivity);
 			}
 		});
@@ -31,10 +33,20 @@ public class Quest_textile extends Activity {
         changeButton2.setOnClickListener(new OnClickListener() {
     		@Override
     		public void onClick(View arg0) {
-    			Intent changeActivity = new Intent(getApplicationContext(), Quest_equipement.class);
+    			Intent changeActivity = new Intent(getApplicationContext(), Quest_alimentation.class);
     			startActivity(changeActivity);
     		}
     	});
+        
+     Spinner spinner = (Spinner) findViewById(R.id.Spinnertextile);
+     // Create an ArrayAdapter using the string array and a default spinner layout
+     ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+     R.array.textile_array, android.R.layout.simple_spinner_item);
+     // Specify the layout to use when the list of choices appears
+     adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+     // Apply the adapter to the spinner
+     spinner.setAdapter(adapter);
+     
 	}
 
     @Override
@@ -57,7 +69,7 @@ public class Quest_textile extends Activity {
 	  	        	Toast.makeText(this, "Hello a propos!", Toast.LENGTH_SHORT).show();
 	   	            return true;
 		    	case R.id.action_settings_quit:
-		    		Toast.makeText(this, "Hello ta quitter!", Toast.LENGTH_SHORT).show();
+		    		Toast.makeText(this, "Merci de ta visite", Toast.LENGTH_SHORT).show();
 		    		onDestroy();
 		                return true;
 	           default:

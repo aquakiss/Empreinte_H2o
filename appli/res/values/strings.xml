@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Partie Application sting -->
+    
     <string name="app_name">Empreinte H2o</string>
     <string name="action_settings">Settings</string>
     <string name="main_bt_1">Choix du questionnaire</string>
@@ -33,6 +35,7 @@
     <string name="non">Non</string>
     
     <!-- questionnaire Alimentation -->
+    
     <string name="Aqcol2">Nombre de fois</string>
     <string name="Aq1">Faîtes-vous attention à la provenance et à la saison des produits achetés?</string>
     <string name="Aq2">Achetez-vous des produits labelisés AB?</string>
@@ -78,12 +81,9 @@
 	
 	<!-- formulaire textile -->
     
-    <string name="tq1">-> Faîtes-vous attention à acheter du coton biologique? </string>
-    <string name="tq2">-> Achetez vous des produits à base de matériaux recyclés? </string>
-	<string name="tq3">-> En rêgle générale, que faites-vous de vos vêtements quand vous ne les mettez plus?</string>
-	<string name="tq3r1">Le jette à la poubelle</string>
-	<string name="tq3r2">Le donne à quelqu\'un (ou association)</string>
-	<string name="tq3r3">Je conserve tout</string>
+    <string name="tq1">Faîtes-vous attention à acheter du coton biologique? </string>
+    <string name="tq2">Achetez vous des produits à base de matériaux recyclés? </string>
+	<string name="tq3">En rêgle générale, que faites-vous de vos vêtements quand vous ne les mettez plus?</string>
 	<string name="tq4col1">La garde robe</string>
 	<string name="tq4col2">Dans ton armoire, combien as-tu de…</string>
 	<string name="tq4col3">En moyenne, combien de temps gardes-tu cet articles?</string>
@@ -140,4 +140,13 @@
 	<string name="eqc4">Télévision écran cathodique</string>
 	<string name="eqc5">Télévision écran LCD</string>
 	
+	<!-- Spinner Textile -->
+	
+	<string-array name="textile_array">
+	
+	<item name="tq3r2">Le donne à quelqu\'un (ou association)</item>    
+	<item name="tq3r1">Le jette à la poubelle</item>
+	<item name="tq3r3">Je conserve tout</item>
+	
+	</string-array>
 </resources>

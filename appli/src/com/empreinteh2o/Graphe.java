@@ -60,7 +60,7 @@ public class Graphe extends Activity {
 	  	        	Toast.makeText(this, "Hello a propos!", Toast.LENGTH_SHORT).show();
 	   	            return true;
 		    	case R.id.action_settings_quit:
-		    		Toast.makeText(this, "Hello ta quitter!", Toast.LENGTH_SHORT).show();
+		    		Toast.makeText(this, "Merci de ta visite", Toast.LENGTH_SHORT).show();
 		    		onDestroy();
 		                return true;
 	           default:

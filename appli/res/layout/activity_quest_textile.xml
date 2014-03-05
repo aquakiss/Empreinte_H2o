@@ -8,31 +8,133 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Quest_textile" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Lancer_les_questionnaires" />
-    
-        <LinearLayout
+    <LinearLayout
+        android:id="@+id/linearLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true" >
+        android:layout_alignParentRight="true"
+        style="?android:attr/buttonBarStyle" >
 
         <Button
             android:id="@+id/textil_precedent_bt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="0.45"
+            android:background="#99CCCC"
+            style="?android:attr/buttonBarButtonStyle"
             android:text="@string/bt_precedent" />
 
         <Button
             android:id="@+id/textil_suivant_bt"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="0.55"
+            android:background="#99CCCC"
             android:text="@string/bt_suivant" />
+        
     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/quest1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.68"
+            android:text="@string/tq1"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="6dp" >
+
+            <CheckBox
+                android:id="@+id/cb_choix1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:text="@string/oui"
+                android:textSize="14sp" />
+
+            <CheckBox
+                android:id="@+id/cb_choix2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/non"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/quest2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tq2"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp" >
+
+            <CheckBox
+                android:id="@+id/cb_q2choix1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:text="@string/oui"
+                android:textSize="14sp" />
+
+            <CheckBox
+                android:id="@+id/cb_q2choix2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/non"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/quest3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.18"
+            android:text="@string/tq3"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_weight="0.47" >
+
+            <Spinner
+                android:id="@+id/Spinnertextile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewTextil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout1"
+        android:layout_alignParentLeft="true" >
+    </ListView>
 
 </RelativeLayout>
