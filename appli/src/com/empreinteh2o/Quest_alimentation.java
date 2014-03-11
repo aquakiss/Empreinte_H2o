@@ -74,6 +74,16 @@ public class Quest_alimentation extends Activity {
     map.put("titre", "Power Point");
     map.put("description", "Logiciel de présentation");
     listItem.add(map);
+    
+    map = new HashMap<String, String>();
+    map.put("titre", "Power Shell");
+    map.put("description", "Logiciel de rouge");
+    listItem.add(map);
+    
+    map = new HashMap<String, String>();
+    map.put("titre", "Power test");
+    map.put("description", "Logiciel de bleu");
+    listItem.add(map);
 
     map = new HashMap<String, String>();
     map.put("titre", "Outlook");
