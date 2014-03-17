@@ -67,35 +67,37 @@ public class Quest_textile extends Activity {
      //On déclare la HashMap qui contiendra les informations pour un item
      HashMap<String, String> map;
 
-     //Création d'une HashMap pour insérer les informations du premier item de notre listView
      map = new HashMap<String, String>();
-     //on insère un élément titre que l'on récupérera dans le textView titre créé dans le fichier affichageitem.xml
-     map.put("titre", "Word");
-     //on insère un élément description que l'on récupérera dans le textView description créé dans le fichier affichageitem.xml
-     map.put("description", "Editeur de texte");
-     //enfin on ajoute cette hashMap dans la arrayList
+     map.put("titre", "Tshort");
      listItem.add(map);
-
-     //On refait la manip plusieurs fois avec des données différentes pour former les items de notre ListView
-
+     
      map = new HashMap<String, String>();
-     map.put("titre", "Excel");
-     map.put("description", "Tableur");
+     map.put("titre", "Haut");
+     listItem.add(map);
+     
+     map = new HashMap<String, String>();
+     map.put("titre", "Chemise");
      listItem.add(map);
 
      map = new HashMap<String, String>();
-     map.put("titre", "Power Point");
-     map.put("description", "Logiciel de présentation");
+     map.put("titre", "Manteau");
      listItem.add(map);
 
      map = new HashMap<String, String>();
-     map.put("titre", "Outlook");
-     map.put("description", "Client de courrier électronique");
+     map.put("titre", "Pantalon");
+     listItem.add(map);
+     
+     map = new HashMap<String, String>();
+     map.put("titre", "Jupe");
+     listItem.add(map);
+     
+     map = new HashMap<String, String>();
+     map.put("titre", "Chaussure");
      listItem.add(map);
 
      //Création d'un SimpleAdapter qui se chargera de mettre les items présent dans notre list (listItem) dans la vue affichageitem
      SimpleAdapter mSchedule = new SimpleAdapter (this.getBaseContext(), listItem, R.layout.activity_textile_lv_item,
-            new String[] {"titre", "description"}, new int[] {R.id.titre, R.id.description});
+            new String[] {"titre"}, new int[] {R.id.titre});
 
      //On attribut à notre listView l'adapter que l'on vient de créer
      maListViewPersoTextile.setAdapter(mSchedule);

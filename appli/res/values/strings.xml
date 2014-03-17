@@ -33,6 +33,8 @@
     <string name="retour2">retour au graphique</string>
     <string name="oui">Oui</string>
     <string name="non">Non</string>
+    <string name="comb">Nb de fois</string>
+    <string name="combmois">Nombre de mois</string>
     
     <!-- questionnaire Alimentation -->
     
@@ -84,7 +86,7 @@
     <string name="tq1">Faîtes-vous attention à acheter du coton biologique? </string>
     <string name="tq2">Achetez vous des produits à base de matériaux recyclés? </string>
 	<string name="tq3">En rêgle générale, que faites-vous de vos vêtements quand vous ne les mettez plus?</string>
-	<string name="tq4col1">La garde robe</string>
+	<string name="tq4col1">Garde robe</string>
 	<string name="tq4col2">Dans ton armoire, combien as-tu de…</string>
 	<string name="tq4col3">En moyenne, combien de temps gardes-tu cet articles?</string>
 	<string name="tq4c1">Tshirt</string>
@@ -147,6 +149,8 @@
 	<item name="tq3r2">Le donne à quelqu\'un (ou association)</item>    
 	<item name="tq3r1">Le jette à la poubelle</item>
 	<item name="tq3r3">Je conserve tout</item>
-	
 	</string-array>
+	
+	
+	
 </resources>

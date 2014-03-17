@@ -66,33 +66,28 @@ public class Quest_alimentation extends Activity {
     //On refait la manip plusieurs fois avec des données différentes pour former les items de notre ListView
 
     map = new HashMap<String, String>();
-    map.put("titre", "Excel");
-    map.put("description", "Tableur");
+    map.put("titre", "R.string.Aq3c1");
     listItem.add(map);
 
     map = new HashMap<String, String>();
     map.put("titre", "Power Point");
-    map.put("description", "Logiciel de présentation");
     listItem.add(map);
     
     map = new HashMap<String, String>();
     map.put("titre", "Power Shell");
-    map.put("description", "Logiciel de rouge");
     listItem.add(map);
     
     map = new HashMap<String, String>();
     map.put("titre", "Power test");
-    map.put("description", "Logiciel de bleu");
     listItem.add(map);
 
     map = new HashMap<String, String>();
     map.put("titre", "Outlook");
-    map.put("description", "Client de courrier électronique");
     listItem.add(map);
 
     //Création d'un SimpleAdapter qui se chargera de mettre les items présent dans notre list (listItem) dans la vue affichageitem
     SimpleAdapter mSchedule = new SimpleAdapter (this.getBaseContext(), listItem, R.layout.activity_alim_lv_item,
-           new String[] {"titre", "description"}, new int[] {R.id.titre, R.id.description});
+           new String[] {"titre"}, new int[] {R.id.titre});
 
     //On attribut à notre listView l'adapter que l'on vient de créer
     maListViewPersoAlim.setAdapter(mSchedule);

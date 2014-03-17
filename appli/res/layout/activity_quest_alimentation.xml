@@ -113,15 +113,36 @@
             android:textSize="14sp" />
 
     </LinearLayout>
-
-    <ListView
-        android:id="@+id/LV_q_alimentation"
-        android:layout_width="match_parent"
+    
+    <RelativeLayout
+        android:id="@+id/LinLayListe"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/linearLayout5"
-        android:layout_alignLeft="@+id/linearLayout5"
         android:layout_below="@+id/linearLayout1" >
 
-    </ListView>
+        <ListView
+            android:id="@+id/LV_q_alimentation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/Questalimlist1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/Aq3nom"
+            android:textSize="20sp" />
+
+         <TextView
+             android:id="@+id/Questalimlist2"
+             android:layout_width="wrap_content"
+             android:layout_marginLeft="100dp"
+             android:layout_height="wrap_content"
+             android:text="@string/Aqcol2"
+             android:textSize="20sp" />
+
+        </RelativeLayout>
 
 </RelativeLayout>
