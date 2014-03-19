@@ -56,7 +56,6 @@ public final class R {
         public static final int edTdouche=0x7f090028;
         public static final int edit=0x7f090001;
         public static final int editTextrobi=0x7f090021;
-        public static final int editTextrobis=0x7f090022;
         public static final int edit_rep_q1=0x7f09003a;
         public static final int editext3=0x7f090036;
         public static final int editextil1=0x7f090035;
@@ -76,6 +75,7 @@ public final class R {
         public static final int spindouche1=0x7f090027;
         public static final int spindouche2=0x7f090029;
         public static final int spinrobi=0x7f090020;
+        public static final int spinrobi2=0x7f090022;
         public static final int t1=0x7f090037;
         public static final int t2=0x7f090038;
         public static final int tRdouche1=0x7f090026;

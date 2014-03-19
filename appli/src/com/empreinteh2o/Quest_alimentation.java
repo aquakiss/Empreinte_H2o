@@ -31,6 +31,7 @@ public class Quest_alimentation extends Activity {
 			public void onClick(View arg0) {
 				Intent changeActivity = new Intent(getApplicationContext(), Quest_textile.class);
 				startActivity(changeActivity);
+				finish();
 			}
 		});
 	
@@ -40,6 +41,7 @@ public class Quest_alimentation extends Activity {
 		public void onClick(View arg0) {
 			Intent changeActivity = new Intent(getApplicationContext(), MainActivity.class);
 			startActivity(changeActivity);
+			finish();
 		}
 	});
    

@@ -41,10 +41,8 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
         android:layout_below="@+id/textView1"
-        android:layout_marginLeft="38dp"
-        android:layout_marginTop="35dp" >
+        android:layout_marginTop="20dp" >
 		
-        
         <TableRow
             android:id="@+id/tableRowtitrerobi"
             android:layout_width="wrap_content"
@@ -52,20 +50,21 @@
 
             <TextView
                 android:id="@+id/tvtitrerobi1"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/app_name" />
+                android:layout_weight="1"
+                android:text="@string/app_name"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvtitrerobi2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_column="1"
                 android:text="@string/app_name"
-                android:layout_marginLeft="20dp" />
-                
+                android:textStyle="bold" />
         </TableRow>
-        
-        
         
         <TableRow
             android:id="@+id/tRrobi1"
@@ -81,6 +80,7 @@
             <Spinner 
                 android:id="@+id/spinrobi"
                 android:layout_width="wrap_content"
+                android:layout_column="1"
                 android:layout_height="wrap_content"/>
 
             <EditText
@@ -88,21 +88,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_column="2"
                 android:hint="@string/app_name" >
 
                 <requestFocus />
             </EditText>
             
-              <EditText
-                android:id="@+id/editTextrobis"
+			<Spinner 
+                android:id="@+id/spinrobi2"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:hint="@string/app_name" >
-
-                <requestFocus />
-            </EditText>
-
+                android:layout_height="wrap_content"/>
         </TableRow>
 		
          <TableRow
@@ -114,6 +109,7 @@
                 android:id="@+id/tVdouche1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textStyle="bold"
                 android:text="@string/app_name" />
 
             <TextView
@@ -121,7 +117,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/app_name"
-                android:layout_marginLeft="20dp" />
+                android:layout_column="1"
+                android:textStyle="bold" />
                 
         </TableRow>
         

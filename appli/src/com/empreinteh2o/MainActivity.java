@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
 			public void onClick(View arg0) {
 				Intent changeActivity = new Intent(getApplicationContext(), Quest_alimentation.class);
 				startActivity(changeActivity);
-				
+				finish();
 			}
 		});
         
@@ -48,7 +48,9 @@ public class MainActivity extends Activity {
 		    	case R.id.action_settings_quit:
 		    		Toast.makeText(this, "Merci de ta visite", Toast.LENGTH_SHORT).show();
 		    		// com.empreinteh2o.Close_all_Activity.closeAllActivities();
+		    		finish();
 		                return true;
+		                
 	           default:
 	 	            return super.onOptionsItemSelected(item);
 	  	    }

@@ -24,6 +24,7 @@ public class Quest_eau_domicile extends Activity {
 			public void onClick(View arg0) {
 				Intent changeActivity = new Intent(getApplicationContext(), Quest_equipement.class);
 				startActivity(changeActivity);
+				finish();
 			}
 		});
         
@@ -33,6 +34,7 @@ public class Quest_eau_domicile extends Activity {
     		public void onClick(View arg0) {
     			Intent changeActivity = new Intent(getApplicationContext(), Quest_textile.class);
     			startActivity(changeActivity);
+    			finish();
     		}
     	});
 	}
@@ -58,7 +60,7 @@ public class Quest_eau_domicile extends Activity {
 	   	            return true;
 		    	case R.id.action_settings_quit:
 		    		Toast.makeText(this, "Merci de ta visite", Toast.LENGTH_SHORT).show();
-		    		onDestroy();
+		    		finish();
 		                return true;
 	           default:
 	 	            return super.onOptionsItemSelected(item);

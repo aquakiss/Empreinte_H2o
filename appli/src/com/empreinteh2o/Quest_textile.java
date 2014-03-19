@@ -125,7 +125,7 @@ public class Quest_textile extends Activity {
 	   	            return true;
 		    	case R.id.action_settings_quit:
 		    		Toast.makeText(this, "Merci de ta visite", Toast.LENGTH_SHORT).show();
-		    		onDestroy();
+		    		finish();
 		                return true;
 	           default:
 	 	            return super.onOptionsItemSelected(item);
