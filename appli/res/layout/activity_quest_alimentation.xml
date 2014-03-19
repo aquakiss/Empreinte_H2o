@@ -48,6 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.68"
+            android:textStyle="bold"
             android:text="@string/Aq1"
             android:textSize="14sp" />
 
@@ -79,6 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/Aq2"
+            android:textStyle="bold"
             android:textSize="14sp" />
 
         <LinearLayout
@@ -110,6 +112,7 @@
             android:layout_height="match_parent"
             android:layout_weight="0.18"
             android:text="@string/Aq3"
+            android:textStyle="bold"
             android:textSize="14sp" />
 
     </LinearLayout>
