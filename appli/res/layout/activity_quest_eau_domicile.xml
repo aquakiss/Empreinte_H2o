@@ -73,18 +73,27 @@
             android:layout_height="wrap_content" >
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textViewrobi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="TextView" />
             
             <Spinner 
-                android:id="@id/spinrobi"
+                android:id="@+id/spinrobi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
             <EditText
-                android:id="@+id/editText1"
+                android:id="@+id/editTextrobi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp" >
+
+                <requestFocus />
+            </EditText>
+            
+              <EditText
+                android:id="@+id/editTextrobis"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp" >
