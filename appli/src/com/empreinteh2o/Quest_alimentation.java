@@ -70,19 +70,19 @@ public class Quest_alimentation extends Activity {
     listItem.add(map);
 
     map = new HashMap<String, String>();
-    map.put("titre", "Power Point");
+    map.put("titre", "Salade");
     listItem.add(map);
     
     map = new HashMap<String, String>();
-    map.put("titre", "Power Shell");
+    map.put("titre", "Charcuterie");
     listItem.add(map);
     
     map = new HashMap<String, String>();
-    map.put("titre", "Power test");
+    map.put("titre", "Soupe");
     listItem.add(map);
 
     map = new HashMap<String, String>();
-    map.put("titre", "Outlook");
+    map.put("titre", "Viande");
     listItem.add(map);
 
     //Création d'un SimpleAdapter qui se chargera de mettre les items présent dans notre list (listItem) dans la vue affichageitem

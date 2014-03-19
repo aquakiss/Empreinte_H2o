@@ -68,7 +68,7 @@ public class Quest_textile extends Activity {
      HashMap<String, String> map;
 
      map = new HashMap<String, String>();
-     map.put("titre", "Tshort");
+     map.put("titre", "Tshirt");
      listItem.add(map);
      
      map = new HashMap<String, String>();
