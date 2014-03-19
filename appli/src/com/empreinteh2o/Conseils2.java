@@ -25,6 +25,7 @@ public class Conseils2 extends Activity {
 			public void onClick(View arg0) {
 				Intent changeActivity = new Intent(getApplicationContext(), MainActivity.class);
 				startActivity(changeActivity);
+				finish();
 			}
 		});
 	    
@@ -34,6 +35,7 @@ public class Conseils2 extends Activity {
 			public void onClick(View arg0) {
 				Intent changeActivity = new Intent(getApplicationContext(), Graphe.class);
 				startActivity(changeActivity);
+				finish();
 			}
 		});
 	
@@ -66,7 +68,7 @@ public class Conseils2 extends Activity {
 	   	            return true;
 		    	case R.id.action_settings_quit:
 		    		Toast.makeText(this, "Hello ta quitter!", Toast.LENGTH_SHORT).show();
-		    		onDestroy();
+		    		finish();
 		                return true;
 	           default:
 	 	            return super.onOptionsItemSelected(item);

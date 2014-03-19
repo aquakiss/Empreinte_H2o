@@ -33,6 +33,7 @@ public class Quest_textile extends Activity {
 			public void onClick(View arg0) {
 				Intent changeActivity = new Intent(getApplicationContext(), Quest_eau_domicile.class);
 				startActivity(changeActivity);
+				finish();
 			}
 		});
         
@@ -42,6 +43,7 @@ public class Quest_textile extends Activity {
     		public void onClick(View arg0) {
     			Intent changeActivity = new Intent(getApplicationContext(), Quest_alimentation.class);
     			startActivity(changeActivity);
+    			finish();
     		}
     	});
         

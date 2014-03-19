@@ -11,6 +11,10 @@ public final class R {
     public static final class array {
         /**  Spinner Textile 
          */
+        public static final int eau_robi1_array=0x7f060001;
+        public static final int eau_robi2_array=0x7f060002;
+        /**  Spinner Textile 
+         */
         public static final int textile_array=0x7f060000;
     }
     public static final class attr {

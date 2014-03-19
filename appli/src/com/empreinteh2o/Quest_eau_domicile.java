@@ -8,7 +8,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 public class Quest_eau_domicile extends Activity {
@@ -18,6 +20,7 @@ public class Quest_eau_domicile extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_quest_eau_domicile);
 		
+/////////////////////////// Change Activity ///////////////////////////////////////////
         Button changeButton = (Button) findViewById(R.id.eau_suivant_bt);
         changeButton.setOnClickListener(new OnClickListener() {
 			@Override
@@ -37,6 +40,18 @@ public class Quest_eau_domicile extends Activity {
     			finish();
     		}
     	});
+ ///////////////////////////////////// Spinner ////////////////////////////////////////////////////
+        Spinner spinnerobi1 = (Spinner) findViewById(R.id.spinrobi);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+        R.array.eau_robi1_array, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinnerobi1.setAdapter(adapter);
+       
+        Spinner spinnerobi2 = (Spinner) findViewById(R.id.spinrobi2);
+        ArrayAdapter<CharSequence> adapter2 = ArrayAdapter.createFromResource(this,
+        R.array.eau_robi2_array, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinnerobi2.setAdapter(adapter2);
 	}
 
     @Override

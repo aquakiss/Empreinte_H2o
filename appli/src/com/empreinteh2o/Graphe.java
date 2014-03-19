@@ -25,6 +25,7 @@ public class Graphe extends Activity {
 			public void onClick(View arg0) {
 				Intent changeActivity = new Intent(getApplicationContext(), MainActivity.class);
 				startActivity(changeActivity);
+				finish();
 			}
 		});
         
@@ -34,6 +35,7 @@ public class Graphe extends Activity {
 			public void onClick(View arg0) {
 				Intent changeActivity = new Intent(getApplicationContext(), Conseils2.class);
 				startActivity(changeActivity);
+				finish();
 			}
 		});
 		
@@ -61,7 +63,7 @@ public class Graphe extends Activity {
 	   	            return true;
 		    	case R.id.action_settings_quit:
 		    		Toast.makeText(this, "Merci de ta visite", Toast.LENGTH_SHORT).show();
-		    		onDestroy();
+		    		finish();
 		                return true;
 	           default:
 	 	            return super.onOptionsItemSelected(item);
