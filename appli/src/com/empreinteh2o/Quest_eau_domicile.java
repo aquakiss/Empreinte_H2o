@@ -69,6 +69,7 @@ public class Quest_eau_domicile extends Activity {
 			Toast.makeText(this, "redirection en cours", Toast.LENGTH_SHORT).show();
 				Intent changeActivity = new Intent(getApplicationContext(), MainActivity.class);
 				startActivity(changeActivity);
+				finish();
             return true;
 	  	        case R.id.action_settings_apropos:
 	  	        	Toast.makeText(this, "Hello a propos!", Toast.LENGTH_SHORT).show();
