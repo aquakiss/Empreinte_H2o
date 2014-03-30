@@ -8,4 +8,5 @@ A voir :
 
 - Realiser le menu comme un spinner.(inspirer de Cinéday by orange)
 
--Recupere les variables de nos questionnaires dans un fichier xml.
+-Recupere les variables de nos questionnaires dans un fichier xml ou avec un Intent 
+spécial.
