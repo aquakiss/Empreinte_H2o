@@ -41,13 +41,13 @@ public class Quest_eau_domicile extends Activity {
     		}
     	});
  ///////////////////////////////////// Spinner ////////////////////////////////////////////////////
-        Spinner spinnerobi1 = (Spinner) findViewById(R.id.spinrobi);
+        Spinner spinnerobi1 = (Spinner) findViewById(R.id.spin1);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
         R.array.eau_robi1_array, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerobi1.setAdapter(adapter);
        
-        Spinner spinnerobi2 = (Spinner) findViewById(R.id.spinrobi2);
+        Spinner spinnerobi2 = (Spinner) findViewById(R.id.spin2);
         ArrayAdapter<CharSequence> adapter2 = ArrayAdapter.createFromResource(this,
         R.array.eau_robi2_array, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
