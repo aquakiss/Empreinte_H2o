@@ -58,51 +58,69 @@ public class Quest_textile extends Activity {
      // Apply the adapter to the spinner
      spinner.setAdapter(adapter);
      
-     ////////////// ListeView layout Textile ////////////////////////////////////////////
+     Spinner spinner2 = (Spinner) findViewById(R.id.Spinnertextile2);
+     // Create an ArrayAdapter using the string array and a default spinner layout
+     ArrayAdapter<CharSequence> adapter2 = ArrayAdapter.createFromResource(this,
+     R.array.textile_array2, android.R.layout.simple_spinner_item);
+     // Specify the layout to use when the list of choices appears
+     adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+     // Apply the adapter to the spinner
+     spinner2.setAdapter(adapter2);
      
-     //Récupération de la listview créée dans le fichier main.xml
-     maListViewPersoTextile = (ListView) findViewById(R.id.listViewTextil);
-
-     //Création de la ArrayList qui nous permettra de remplire la listView
-     ArrayList<HashMap<String, String>> listItem = new ArrayList<HashMap<String, String>>();
-
-     //On déclare la HashMap qui contiendra les informations pour un item
-     HashMap<String, String> map;
-
-     map = new HashMap<String, String>();
-     map.put("titre", "Tshirt");
-     listItem.add(map);
+     Spinner spinner3 = (Spinner) findViewById(R.id.Spinnertextile3);
+     // Create an ArrayAdapter using the string array and a default spinner layout
+     ArrayAdapter<CharSequence> adapter3 = ArrayAdapter.createFromResource(this,
+     R.array.textile_array2, android.R.layout.simple_spinner_item);
+     // Specify the layout to use when the list of choices appears
+     adapter3.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+     // Apply the adapter to the spinner
+     spinner3.setAdapter(adapter3);
      
-     map = new HashMap<String, String>();
-     map.put("titre", "Haut");
-     listItem.add(map);
+     Spinner spinner4 = (Spinner) findViewById(R.id.Spinnertextile4);
+     // Create an ArrayAdapter using the string array and a default spinner layout
+     ArrayAdapter<CharSequence> adapter4 = ArrayAdapter.createFromResource(this,
+     R.array.textile_array2, android.R.layout.simple_spinner_item);
+     // Specify the layout to use when the list of choices appears
+     adapter4.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+     // Apply the adapter to the spinner
+     spinner4.setAdapter(adapter4);
      
-     map = new HashMap<String, String>();
-     map.put("titre", "Chemise");
-     listItem.add(map);
-
-     map = new HashMap<String, String>();
-     map.put("titre", "Manteau");
-     listItem.add(map);
-
-     map = new HashMap<String, String>();
-     map.put("titre", "Pantalon");
-     listItem.add(map);
      
-     map = new HashMap<String, String>();
-     map.put("titre", "Jupe");
-     listItem.add(map);
+     Spinner spinner5 = (Spinner) findViewById(R.id.Spinnertextile5);
+     // Create an ArrayAdapter using the string array and a default spinner layout
+     ArrayAdapter<CharSequence> adapter5 = ArrayAdapter.createFromResource(this,
+     R.array.textile_array2, android.R.layout.simple_spinner_item);
+     // Specify the layout to use when the list of choices appears
+     adapter5.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+     // Apply the adapter to the spinner
+     spinner5.setAdapter(adapter5);
      
-     map = new HashMap<String, String>();
-     map.put("titre", "Chaussure");
-     listItem.add(map);
-
-     //Création d'un SimpleAdapter qui se chargera de mettre les items présent dans notre list (listItem) dans la vue affichageitem
-     SimpleAdapter mSchedule = new SimpleAdapter (this.getBaseContext(), listItem, R.layout.activity_textile_lv_item,
-            new String[] {"titre"}, new int[] {R.id.titre});
-
-     //On attribut à notre listView l'adapter que l'on vient de créer
-     maListViewPersoTextile.setAdapter(mSchedule);
+     Spinner spinner6 = (Spinner) findViewById(R.id.Spinnertextile6);
+     // Create an ArrayAdapter using the string array and a default spinner layout
+     ArrayAdapter<CharSequence> adapter6 = ArrayAdapter.createFromResource(this,
+     R.array.textile_array2, android.R.layout.simple_spinner_item);
+     // Specify the layout to use when the list of choices appears
+     adapter6.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+     // Apply the adapter to the spinner
+     spinner6.setAdapter(adapter6);
+     
+     Spinner spinner7 = (Spinner) findViewById(R.id.Spinnertextile7);
+     // Create an ArrayAdapter using the string array and a default spinner layout
+     ArrayAdapter<CharSequence> adapter7 = ArrayAdapter.createFromResource(this,
+     R.array.textile_array2, android.R.layout.simple_spinner_item);
+     // Specify the layout to use when the list of choices appears
+     adapter7.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+     // Apply the adapter to the spinner
+     spinner7.setAdapter(adapter7);
+     
+     Spinner spinner8 = (Spinner) findViewById(R.id.Spinnertextile8);
+     // Create an ArrayAdapter using the string array and a default spinner layout
+     ArrayAdapter<CharSequence> adapter8 = ArrayAdapter.createFromResource(this,
+     R.array.textile_array2, android.R.layout.simple_spinner_item);
+     // Specify the layout to use when the list of choices appears
+     adapter8.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+     // Apply the adapter to the spinner
+     spinner8.setAdapter(adapter8);
      
 	}
 
