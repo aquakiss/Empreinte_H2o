@@ -11,11 +11,12 @@ public final class R {
     public static final class array {
         /**  Spinner Textile 
          */
-        public static final int eau_robi1_array=0x7f060001;
-        public static final int eau_robi2_array=0x7f060002;
+        public static final int eau_robi1_array=0x7f060002;
+        public static final int eau_robi2_array=0x7f060003;
         /**  Spinner Textile 
          */
         public static final int textile_array=0x7f060000;
+        public static final int textile_array2=0x7f060001;
     }
     public static final class attr {
     }
@@ -39,16 +40,23 @@ public final class R {
         public static final int LinLayListe=0x7f090015;
         public static final int Questalimlist1=0x7f090017;
         public static final int Questalimlist2=0x7f090018;
-        public static final int Spinnertextile=0x7f09003d;
+        public static final int Spinnertextile=0x7f09003b;
+        public static final int Spinnertextile2=0x7f09003d;
+        public static final int Spinnertextile3=0x7f090041;
+        public static final int Spinnertextile4=0x7f090045;
+        public static final int Spinnertextile5=0x7f090049;
+        public static final int Spinnertextile6=0x7f09004d;
+        public static final int Spinnertextile7=0x7f090051;
+        public static final int Spinnertextile8=0x7f090055;
         public static final int TV1=0x7f09001b;
-        public static final int TV_q1=0x7f090043;
+        public static final int TV_q1=0x7f09005c;
         public static final int TVbain1=0x7f090031;
         public static final int TVbain2=0x7f090032;
         public static final int TextView01=0x7f090007;
-        public static final int action_settings=0x7f090046;
-        public static final int action_settings_accueil=0x7f090047;
-        public static final int action_settings_apropos=0x7f090049;
-        public static final int action_settings_quit=0x7f090048;
+        public static final int action_settings=0x7f09005f;
+        public static final int action_settings_accueil=0x7f090060;
+        public static final int action_settings_apropos=0x7f090062;
+        public static final int action_settings_quit=0x7f090061;
         public static final int alim_precedent_bt=0x7f090009;
         public static final int alim_suivant_bt=0x7f09000a;
         public static final int button1=0x7f090004;
@@ -65,11 +73,23 @@ public final class R {
         public static final int eau_suivant_bt=0x7f090037;
         public static final int edit=0x7f090001;
         public static final int editText1=0x7f090027;
+        public static final int editText10=0x7f090047;
+        public static final int editText11=0x7f090048;
+        public static final int editText13=0x7f09004b;
+        public static final int editText14=0x7f09004c;
+        public static final int editText16=0x7f09004f;
+        public static final int editText17=0x7f090050;
+        public static final int editText19=0x7f090053;
         public static final int editText2=0x7f090034;
+        public static final int editText20=0x7f090054;
         public static final int editText22=0x7f090028;
-        public static final int edit_rep_q1=0x7f090044;
-        public static final int editext3=0x7f090040;
-        public static final int editextil1=0x7f09003f;
+        public static final int editText4=0x7f09003f;
+        public static final int editText5=0x7f090040;
+        public static final int editText6=0x7f090043;
+        public static final int editText7=0x7f090044;
+        public static final int edit_rep_q1=0x7f09005d;
+        public static final int editext3=0x7f090059;
+        public static final int editextil1=0x7f090058;
         public static final int edt1=0x7f09002e;
         public static final int edt2=0x7f09002f;
         public static final int equipement_precedent_bt=0x7f090038;
@@ -86,10 +106,9 @@ public final class R {
         public static final int linearLayout1=0x7f09000b;
         public static final int linearLayout2=0x7f09000d;
         public static final int linearLayout3=0x7f090011;
-        public static final int linearLayout4=0x7f09003c;
+        public static final int linearLayout4=0x7f09003a;
         public static final int linearLayout5=0x7f090008;
-        public static final int listView1=0x7f090045;
-        public static final int listViewTextil=0x7f09003e;
+        public static final int listView1=0x7f09005e;
         public static final int lrobinet=0x7f090020;
         public static final int lsuper=0x7f090019;
         public static final int main_bt_1=0x7f090006;
@@ -98,16 +117,23 @@ public final class R {
         public static final int quest3=0x7f090014;
         public static final int spin1=0x7f090026;
         public static final int spin2=0x7f09002d;
-        public static final int t1=0x7f090041;
-        public static final int t2=0x7f090042;
+        public static final int t1=0x7f09005a;
+        public static final int t2=0x7f09005b;
         public static final int tV=0x7f090024;
         public static final int textView1=0x7f090002;
+        public static final int textView10=0x7f09004e;
+        public static final int textView11=0x7f090052;
         public static final int textView2=0x7f090021;
         public static final int textView3=0x7f090022;
+        public static final int textView4=0x7f09003e;
+        public static final int textView5=0x7f090042;
+        public static final int textView6=0x7f09003c;
+        public static final int textView7=0x7f090046;
+        public static final int textView9=0x7f09004a;
         public static final int textViews2=0x7f09002a;
         public static final int textViews3=0x7f09002b;
-        public static final int textil_precedent_bt=0x7f09003a;
-        public static final int textil_suivant_bt=0x7f09003b;
+        public static final int textil_precedent_bt=0x7f090056;
+        public static final int textil_suivant_bt=0x7f090057;
         public static final int titre=0x7f090000;
     }
     public static final class layout {

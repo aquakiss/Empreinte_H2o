@@ -152,6 +152,12 @@
 	<item name="tq3r3">Je conserve tout</item>
 	</string-array>
 	
+	
+	<string-array name="textile_array2">
+	   <item name="tq4r1">mois</item> 
+	    <item name="tq4r2">an</item> 
+	</string-array>
+	
 		<!-- Spinner Textile -->
 	
 	<string-array name="eau_robi1_array">
