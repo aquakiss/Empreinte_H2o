@@ -22,7 +22,7 @@
 			    android:layout_width="wrap_content"
 			    android:layout_height="wrap_content"
 			    android:layout_marginLeft="36dp"
-			    android:textSize="18sp"
+			    android:textSize="14sp"
 			    android:textStyle="bold"
 			    android:text="@string/edq1" />
 		</LinearLayout>
@@ -37,7 +37,7 @@
 		        android:layout_width="wrap_content"
 		   	    android:layout_height="wrap_content"
 		        android:text="@string/edq1r1"
-		        android:textSize="14sp"
+		        android:textSize="12sp"
 		         />
 
 		    <CheckBox
@@ -45,7 +45,7 @@
 		        android:layout_width="wrap_content"
 		   	    android:layout_height="wrap_content"
 		        android:text="@string/edq1r2"
-		        android:textSize="14sp" />
+		        android:textSize="12sp" />
 
 		    <CheckBox
 		        android:id="@+id/checkBox3"
@@ -62,27 +62,43 @@
 		    android:orientation="horizontal"
 		    android:layout_marginLeft="36dp"
 		    android:layout_marginTop="11dp" >
-		
+		    
 		    <TextView
 		        android:id="@+id/textView2"
 		        android:layout_width="wrap_content"
 		   	    android:layout_height="wrap_content"
-		        android:textSize="18sp"
+		        android:textSize="14sp"
+			    android:textStyle="bold"
+			    android:layout_marginLeft="5dp"
+			    android:layout_marginRight="10dp"
+		        android:text="@string/edqutil" />
+		    
+		     <TextView
+		        android:id="@+id/textView3"
+		        android:layout_width="wrap_content"
+		   	    android:layout_height="wrap_content"
+		        android:textSize="14sp"
+			    android:textStyle="bold"
+			    android:layout_marginLeft="10dp"
+		        android:text="@string/Fre" />
+		</LinearLayout>	
+		<LinearLayout    
+		    android:id="@+id/lrobin"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+		 
+		    <TextView
+		        android:id="@+id/textV2"
+		        android:layout_width="wrap_content"
+		   	    android:layout_height="wrap_content"
+		        android:textSize="14sp"
 			    android:textStyle="bold"
 			    android:layout_marginLeft="5dp"
 			    android:layout_marginRight="10dp"
 		        android:text="@string/edq2" />
-
-		    <TextView
-		        android:id="@+id/textView3"
-		        android:layout_width="wrap_content"
-		   	    android:layout_height="wrap_content"
-		        android:textSize="18sp"
-			    android:textStyle="bold"
-			    android:layout_marginLeft="10dp"
-		        android:text="@string/Fre" />
 		    
-		    </LinearLayout>		
+		    </LinearLayout>	
 		
 		<LinearLayout
 		    android:id="@+id/l4"
@@ -95,7 +111,8 @@
 		        android:layout_width="wrap_content"
 		   	    android:layout_height="wrap_content"
 		   	    android:layout_marginRight="15dp"
-		   	    android:layout_marginLeft="3dp"
+		   	    android:layout_marginLeft="3dp"		   	    
+		        android:textSize="12sp"
 		        android:text="@string/edq2c1" />
 
 		    <EditText
@@ -103,32 +120,35 @@
 		        android:layout_width="wrap_content"
 		   	    android:layout_height="wrap_content"
 		   	    android:layout_marginLeft="22dp"
+		   	    android:textSize="12sp"
 		   	    android:hint="@string/combmois" />
 		    </LinearLayout>
 		    
 		 <LinearLayout
-		    android:id="@+id/l4.5"
-		    android:layout_width="match_parent"
-		    android:layout_height="wrap_content"
-		    android:orientation="horizontal">
+		     android:id="@+id/l4.5"
+		     android:layout_width="match_parent"
+		     android:layout_height="63dp"
+		     android:orientation="horizontal" >
 
 		     <TextView
 		         android:id="@+id/textView1"
 		         android:layout_width="100dp"
+		         android:textSize="12sp"
 		         android:layout_height="wrap_content"
 		         android:text="@string/edq2c2" />
 
 		     <Spinner
-		         android:id="@+id/spin1"
-		         android:layout_width="100dp"
-		         android:layout_height="wrap_content"
-		         android:layout_weight="1" />
+		         android:id="@+id/spinrob1"
+		         android:layout_width="70dp"
+		         android:textSize="12sp"
+		         android:layout_height="wrap_content" />
 
 		     <EditText
 		         android:id="@+id/editText1"
 		         android:layout_width="wrap_content"
 		         android:layout_height="wrap_content"
 		         android:layout_weight="1"
+		         android:textSize="12sp"
 		         android:ems="6" 
 		         android:hint="@string/temp" />
 		     
@@ -138,6 +158,7 @@
 		         android:layout_height="wrap_content"
 		         android:layout_weight="1"
 		         android:ems="6"
+		         android:textSize="12sp"
 		         android:hint="@string/combjour" />
 		     
 		</LinearLayout>
@@ -147,8 +168,7 @@
 		    android:layout_width="match_parent"
 		    android:layout_height="wrap_content"
 		    android:orientation="horizontal"
-		    android:layout_marginTop="11dp" 
-		    android:layout_marginLeft="36dp">
+		    android:layout_marginTop="11dp">
 
 			<TextView
 			    android:id="@+id/textViews2"
@@ -156,17 +176,8 @@
 			    android:layout_height="wrap_content"
 			    android:layout_marginLeft="15dp"
 			    android:text="@string/edq3"
-			    android:textSize="18sp"
-			    android:textStyle="bold" />
-
-		    <TextView
-		        android:id="@+id/textViews3"
-		        android:layout_width="wrap_content"
-		   	    android:layout_height="wrap_content"
-		        android:textSize="18sp"
-			    android:textStyle="bold"
-			    android:layout_marginLeft="40dp"
-		        android:text="@string/Fre" />	    
+			    android:textSize="14sp"
+			    android:textStyle="bold" />	    
 		</LinearLayout>
 				
 		<LinearLayout
@@ -177,22 +188,23 @@
 		    android:layout_marginTop="11dp" >
 
 			<Spinner
-			    android:id="@+id/spin2"
+			    android:id="@+id/spindouch1"
 			    android:layout_width="137dp"
+			    android:textSize="12sp"
 			    android:layout_height="wrap_content" />
 
 			<EditText
 			    android:id="@+id/edt1"
 			    android:layout_width="wrap_content"
 			    android:layout_height="wrap_content"
-			    android:layout_weight="1"
+			    android:textSize="12sp"
 			    android:hint="@string/temp" />
 
 			<EditText
 			    android:id="@+id/edt2"
-			    android:layout_width="wrap_content"
+			    android:layout_width="82dp"
+			    android:textSize="12sp"
 			    android:layout_height="wrap_content"
-			    android:layout_weight="1"
 			    android:hint="@string/combjour" />
 		    
 		</LinearLayout>
@@ -202,27 +214,17 @@
 		    android:layout_width="match_parent"
 		    android:layout_height="wrap_content"
 		    android:orientation="horizontal"
-		    android:layout_marginLeft="36dp"
 		    android:layout_marginTop="11dp" >
 		
 		    <TextView
 		        android:id="@+id/TVbain1"
 		        android:layout_width="wrap_content"
 		   	    android:layout_height="wrap_content"
-		        android:textSize="18sp"
+		        android:textSize="14sp"
 			    android:textStyle="bold"
 			    android:layout_marginLeft="15dp"
 			    android:layout_marginRight="30dp"
-		        android:text="@string/edq4" />
-
-		    <TextView
-		        android:id="@+id/TVbain2"
-		        android:layout_width="wrap_content"
-		   	    android:layout_height="wrap_content"
-		        android:textSize="18sp"
-			    android:textStyle="bold"
-			    android:layout_marginLeft="40dp"
-		        android:text="@string/Fre" />	
+		        android:text="@string/edq4" />	
 		    
 		 </LinearLayout>
 		 
@@ -237,11 +239,392 @@
 			    android:layout_width="wrap_content"
 			    android:layout_height="wrap_content"
 			    android:ems="10"
+			    android:textSize="12sp"
 			    android:layout_marginLeft="100dp"
 			    android:hint="@string/combjour" />
 			
 		</LinearLayout>
 		
+		<LinearLayout
+		    android:id="@+id/lwc"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:layout_marginTop="11dp" >
+		
+		    <TextView
+		        android:id="@+id/TVw1"
+		        android:layout_width="wrap_content"
+		   	    android:layout_height="wrap_content"
+		        android:textSize="14sp"
+			    android:textStyle="bold"
+			    android:layout_marginRight="30dp"
+			    android:layout_marginLeft="15dp"
+		        android:text="@string/edq5" />	
+		    
+		 </LinearLayout>
+		 
+		<LinearLayout
+		    android:id="@+id/lw1"
+		    android:layout_width="match_parent"
+		    android:layout_height="64dp"
+		    android:orientation="horizontal" >
+
+			<Spinner
+			    android:id="@+id/spinwc1"
+			    android:layout_width="184dp"
+			    android:textSize="12sp"
+			    android:layout_height="wrap_content" />
+
+			<TextView
+			    android:id="@+id/textView4"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="12sp"
+			    android:text="@string/edpchasse" />
+
+			<EditText
+			    android:id="@+id/editText3"
+			    android:layout_width="136dp"
+			    android:layout_height="wrap_content"
+			    android:ems="10"
+			    android:textSize="12sp"
+			    android:hint="@string/combjour" >
+
+			    <requestFocus />
+			</EditText>
+		    
+		 </LinearLayout>
+
+		 <LinearLayout
+		     android:id="@+id/lw2"
+		     android:layout_width="match_parent"
+		     android:layout_height="60dp"
+		     android:orientation="horizontal" >
+
+		     <Spinner
+		         android:id="@+id/spinw2"
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:textSize="12sp"
+		         android:layout_weight="1" />
+
+		     <TextView
+		         android:id="@+id/tV2"
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:layout_weight="1"
+		         android:text="@string/edgchasse" />
+
+		     <EditText
+		         android:id="@+id/eT2"
+		         android:layout_width="match_parent"
+		         android:layout_height="wrap_content"
+		         android:layout_weight="1"
+		         android:hint="@string/combjour"
+		         android:textSize="12sp"
+		         android:ems="10" />
+		     
+		  </LinearLayout>
+		 
+		<LinearLayout
+		    android:id="@+id/lconsom"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:layout_marginTop="11dp" >
+		
+		    <TextView
+		        android:id="@+id/TVconso1"
+		        android:layout_width="wrap_content"
+		   	    android:layout_height="wrap_content"
+		        android:textSize="14sp"
+			    android:textStyle="bold"
+			    android:layout_marginLeft="15dp"
+			    android:layout_marginRight="30dp"
+		        android:text="@string/edq6" />	
+		    
+		 </LinearLayout>
+		 
+		<LinearLayout
+		    android:id="@+id/lc1"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+
+			<TextView
+			    android:id="@+id/tVc1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="12sp"
+			    android:layout_marginLeft="10dp"
+			    android:text="@string/eddent" />
+
+			<EditText
+			    android:id="@+id/eTc1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:ems="10"
+			    android:textSize="12sp"
+			    android:layout_marginLeft="30dp"
+			    android:hint="@string/combjour" />
+		    
+		 </LinearLayout>
+		 
+		<LinearLayout
+		    android:id="@+id/lloisir"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:layout_marginTop="11dp" >
+		
+		    <TextView
+		        android:id="@+id/TVlois1"
+		        android:layout_width="wrap_content"
+		   	    android:layout_height="wrap_content"
+		        android:textSize="14sp"
+			    android:textStyle="bold"
+			    android:layout_marginLeft="15dp"
+			    android:layout_marginRight="30dp"
+		        android:text="@string/edq7" />	
+		    
+		 </LinearLayout>
+		 
+		<LinearLayout
+		    android:id="@+id/ll1"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+
+			<TextView
+			    android:id="@+id/tVl1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="15dp"
+			    android:textSize="12sp"
+			    android:text="@string/edq7c1" />
+
+			<Spinner
+			    android:id="@+id/spinl1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="12sp"
+			    android:layout_marginLeft="35dp" />
+		    
+		 </LinearLayout>
+		 
+		<LinearLayout
+		    android:id="@+id/ll2"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+
+			<TextView
+			    android:id="@+id/tVl2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="12sp"
+			    android:text="@string/edq7c2" />
+
+			<Spinner
+			    android:id="@+id/spinl2"
+			    android:layout_width="100dp"
+			    android:layout_marginLeft="5dp"
+			    android:textSize="12sp"
+			    android:layout_height="wrap_content" />
+			
+			<EditText
+			    android:id="@+id/eTl2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="5dp"
+			    android:textSize="12sp"
+			    android:hint="@string/combmois" />
+		    
+		 </LinearLayout>
+		 
+		<LinearLayout
+		    android:id="@+id/llessive"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:layout_marginTop="11dp" >
+
+			<TextView
+			    android:id="@+id/tVles1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="15dp"
+			    android:text="@string/edq8"
+			    android:textSize="14sp"
+			    android:textStyle="bold" />	    
+		</LinearLayout>
+		 	
+		<LinearLayout
+		    android:id="@+id/lless1"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+
+			<TextView
+			    android:id="@+id/tVless1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="12sp"
+			    android:text="@string/edq8c1" />
+
+			<EditText
+			    android:id="@+id/eTless1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="12sp"
+			    android:hint="@string/edq8c2"
+			    android:ems="10" />
+		    
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:id="@+id/lless2"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+
+			<TextView
+			    android:id="@+id/tVless2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="12sp"
+			    android:text="@string/edq8c2" />
+
+			<Spinner
+			    android:id="@+id/spinless1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content" />
+		    
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:id="@+id/lless3"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+
+			<TextView
+			    android:id="@+id/tVless3"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="12sp"
+			    android:text="@string/edq8c3" />
+
+			<Spinner
+			    android:id="@+id/spinless2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1" />
+
+			<EditText
+			    android:id="@+id/eTless2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:hint="@string/combjour"
+			    android:textSize="12sp"
+			    android:ems="10" />
+		    
+		 </LinearLayout>
+		 
+		<LinearLayout
+		    android:id="@+id/lless4"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+
+			<TextView
+			    android:id="@+id/tVless4"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="12sp"
+			    android:text="@string/edq8c4" />
+
+			<Spinner
+			    android:id="@+id/spinless3"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="12sp"/>
+		    
+		</LinearLayout>		
+		
+		<LinearLayout
+		    android:id="@+id/lvaisselle"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:layout_marginTop="11dp" >
+
+			<TextView
+			    android:id="@+id/tVvai1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="15dp"
+			    android:text="@string/edq9"
+			    android:textSize="14sp"
+			    android:textStyle="bold" />
+		    </LinearLayout>
+		    
+			<LinearLayout
+		    android:id="@+id/lvaiss1"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+
+				<TextView
+				    android:id="@+id/tV1"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:textSize="12sp"
+				    android:text="@string/edq9c1" />
+
+				<Spinner
+				    android:id="@+id/spinvais1"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1" />
+
+				<EditText
+				    android:id="@+id/eTvais1"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:ems="10"
+				    android:hint=""
+				    android:textSize="12sp" />
+		    
+			 </LinearLayout>
+			 
+			<LinearLayout
+		    android:id="@+id/lvaiss2"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+
+				<Spinner
+				    android:id="@+id/spinvais2"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1" />
+
+				<EditText
+				    android:id="@+id/eTvais2"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:ems="10"
+				    android:textSize="12sp"
+				    android:hint="" />
+		    
+			 </LinearLayout>
+		
+		 		
 		<LinearLayout
 		    android:id="@+id/lbuttonchange"
 		    android:layout_width="match_parent"
@@ -255,7 +638,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="#99CCCC"
-            android:layout_weight="0.45"
+            android:layout_weight="1"
             style="?android:attr/buttonBarButtonStyle"
             android:text="@string/bt_precedent" />
 
@@ -264,10 +647,11 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="#99CCCC"
-            android:layout_weight="0.55"
+            android:layout_weight="1"
             style="?android:attr/buttonBarButtonStyle"
             android:text="@string/bt_suivant" />
 		    
 		</LinearLayout>
+
     </LinearLayout>
 </ScrollView>
