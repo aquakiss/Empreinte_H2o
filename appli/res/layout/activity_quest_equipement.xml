@@ -475,16 +475,15 @@
 
                         <TextView
                             android:id="@+id/textView38"
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="" />
 
                         <TextView
                             android:id="@+id/textView33"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:maxWidth="80dp"
-                            android:height="50dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+							android:maxWidth="80dp"
                             android:text="@string/eqcol6" />
                     </TableRow>
                 </TableLayout>

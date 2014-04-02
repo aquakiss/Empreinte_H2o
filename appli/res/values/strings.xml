@@ -155,11 +155,12 @@
 	</string-array>
 	
 	<string-array name="oui_non">
+		<item name="oui">Oui</item>
+		<item name="non">Non</item>
+	</string-array>
 	
-<<<<<<< HEAD
-	<item name="oui">Oui</item>
-	<item name="non">Non</item>
-=======
+	
+	
 	<string-array name="textile_array2">
 	   <item name="tq4r1">mois</item> 
 	    <item name="tq4r2">an</item> 
@@ -179,7 +180,6 @@
 	<item name="sp_eau_rob2a">quelqu\'un (ou association)</item>    
 	<item name="sp_eau_rob2b">poubelle</item>
 	<item name="sp_eau_rob2c">tout</item>
->>>>>>> 3dadb1d7ac7afbdd0d1878d03e73b409936c706a
 	</string-array>
 	
 </resources>
