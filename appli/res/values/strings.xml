@@ -35,6 +35,7 @@
     <string name="non">Non</string>
     <string name="comb">Nb de fois</string>
     <string name="combmois">Nombre de mois</string>
+    <string name="combjour">.Fois par jour</string>
     
     <!-- questionnaire Alimentation -->
     
@@ -111,7 +112,7 @@
 	<string name="Fre">Fréquence</string>
 	<string name="edq2c1">Lavabo rempli</string>
 	<string name="edq2c2">Lavabo robinet ouvert</string>
-	<string name="temp">Temps passé :</string>
+	<string name="temp">Temps passé(min)</string>
 	<string name="minute">minute(s)</string>
 	<string name="edq3">Douche</string>
 	<string name="edq4">Bain</string>
@@ -155,8 +156,30 @@
 	
 	<string-array name="oui_non">
 	
+<<<<<<< HEAD
 	<item name="oui">Oui</item>
 	<item name="non">Non</item>
+=======
+	<string-array name="textile_array2">
+	   <item name="tq4r1">mois</item> 
+	    <item name="tq4r2">an</item> 
+	</string-array>
+	
+		<!-- Spinner Textile -->
+	
+	<string-array name="eau_robi1_array">
+	    	
+	<item name="sp_eau_rob1a">Le donne à</item>    
+	<item name="sp_eau_rob1b">Le jette à</item>
+	<item name="sp_eau_rob1c">Je conserve</item>
+	</string-array>
+	
+	<string-array name="eau_robi2_array">	
+	    
+	<item name="sp_eau_rob2a">quelqu\'un (ou association)</item>    
+	<item name="sp_eau_rob2b">poubelle</item>
+	<item name="sp_eau_rob2c">tout</item>
+>>>>>>> 3dadb1d7ac7afbdd0d1878d03e73b409936c706a
 	</string-array>
 	
 </resources>

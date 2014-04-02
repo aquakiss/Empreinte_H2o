@@ -31,6 +31,7 @@ public class Quest_alimentation extends Activity {
 			public void onClick(View arg0) {
 				Intent changeActivity = new Intent(getApplicationContext(), Quest_textile.class);
 				startActivity(changeActivity);
+				finish();
 			}
 		});
 	
@@ -40,6 +41,7 @@ public class Quest_alimentation extends Activity {
 		public void onClick(View arg0) {
 			Intent changeActivity = new Intent(getApplicationContext(), MainActivity.class);
 			startActivity(changeActivity);
+			finish();
 		}
 	});
    
@@ -56,33 +58,25 @@ public class Quest_alimentation extends Activity {
 
     //Création d'une HashMap pour insérer les informations du premier item de notre listView
     map = new HashMap<String, String>();
-    //on insère un élément titre que l'on récupérera dans le textView titre créé dans le fichier affichageitem.xml
-    map.put("titre", "Word");
-    //on insère un élément description que l'on récupérera dans le textView description créé dans le fichier affichageitem.xml
-    map.put("description", "Editeur de texte");
-    //enfin on ajoute cette hashMap dans la arrayList
-    listItem.add(map);
-
-    //On refait la manip plusieurs fois avec des données différentes pour former les items de notre ListView
 
     map = new HashMap<String, String>();
-    map.put("titre", "R.string.Aq3c1");
+    map.put("titre", getString(R.string.Aq3c1));
     listItem.add(map);
 
     map = new HashMap<String, String>();
-    map.put("titre", "Salade");
+    map.put("titre", getString(R.string.Aq3c2));
     listItem.add(map);
     
     map = new HashMap<String, String>();
-    map.put("titre", "Charcuterie");
+    map.put("titre", getString(R.string.Aq3c3));
     listItem.add(map);
     
     map = new HashMap<String, String>();
-    map.put("titre", "Soupe");
+    map.put("titre", getString(R.string.Aq3c4));
     listItem.add(map);
 
     map = new HashMap<String, String>();
-    map.put("titre", "Viande");
+    map.put("titre", getString(R.string.Aq3c5));
     listItem.add(map);
 
     //Création d'un SimpleAdapter qui se chargera de mettre les items présent dans notre list (listItem) dans la vue affichageitem
@@ -109,6 +103,7 @@ public class Quest_alimentation extends Activity {
 	    			Toast.makeText(this, "redirection en cours", Toast.LENGTH_SHORT).show();
 	    				Intent changeActivity = new Intent(getApplicationContext(), MainActivity.class);
 	    				startActivity(changeActivity);
+	    				finish();
 	                return true;
 	  	        case R.id.action_settings_apropos:
 	  	        	Toast.makeText(this, "Hello à propos!", Toast.LENGTH_SHORT).show();

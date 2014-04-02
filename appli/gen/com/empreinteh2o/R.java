@@ -12,7 +12,16 @@ public final class R {
         public static final int oui_non=0x7f070001;
         /**  Spinner Textile 
          */
+<<<<<<< HEAD
         public static final int textile_array=0x7f070000;
+=======
+        public static final int eau_robi1_array=0x7f060002;
+        public static final int eau_robi2_array=0x7f060003;
+        /**  Spinner Textile 
+         */
+        public static final int textile_array=0x7f060000;
+        public static final int textile_array2=0x7f060001;
+>>>>>>> 3dadb1d7ac7afbdd0d1878d03e73b409936c706a
     }
     public static final class attr {
         /** 
@@ -235,6 +244,7 @@ containing a value of this type.
         public static final int o=0x7f020002;
     }
     public static final class id {
+<<<<<<< HEAD
         public static final int LV_q_alimentation=0x7f040028;
         public static final int LinLayListe=0x7f040027;
         public static final int Questalimlist1=0x7f040029;
@@ -370,6 +380,107 @@ containing a value of this type.
         public static final int titre=0x7f040012;
         public static final int top=0x7f040004;
         public static final int vertical=0x7f040001;
+=======
+        public static final int LV_q_alimentation=0x7f090016;
+        public static final int LinLayListe=0x7f090015;
+        public static final int Questalimlist1=0x7f090017;
+        public static final int Questalimlist2=0x7f090018;
+        public static final int Spinnertextile=0x7f09003b;
+        public static final int Spinnertextile2=0x7f09003d;
+        public static final int Spinnertextile3=0x7f090041;
+        public static final int Spinnertextile4=0x7f090045;
+        public static final int Spinnertextile5=0x7f090049;
+        public static final int Spinnertextile6=0x7f09004d;
+        public static final int Spinnertextile7=0x7f090051;
+        public static final int Spinnertextile8=0x7f090055;
+        public static final int TV1=0x7f09001b;
+        public static final int TV_q1=0x7f09005c;
+        public static final int TVbain1=0x7f090031;
+        public static final int TVbain2=0x7f090032;
+        public static final int TextView01=0x7f090007;
+        public static final int action_settings=0x7f09005f;
+        public static final int action_settings_accueil=0x7f090060;
+        public static final int action_settings_apropos=0x7f090062;
+        public static final int action_settings_quit=0x7f090061;
+        public static final int alim_precedent_bt=0x7f090009;
+        public static final int alim_suivant_bt=0x7f09000a;
+        public static final int button1=0x7f090004;
+        public static final int button2=0x7f090003;
+        public static final int button6=0x7f090005;
+        public static final int cb_choix1=0x7f09000e;
+        public static final int cb_choix2=0x7f09000f;
+        public static final int cb_q2choix1=0x7f090012;
+        public static final int cb_q2choix2=0x7f090013;
+        public static final int checkBox1=0x7f09001d;
+        public static final int checkBox2=0x7f09001e;
+        public static final int checkBox3=0x7f09001f;
+        public static final int eau_precedent_bt=0x7f090036;
+        public static final int eau_suivant_bt=0x7f090037;
+        public static final int edit=0x7f090001;
+        public static final int editText1=0x7f090027;
+        public static final int editText10=0x7f090047;
+        public static final int editText11=0x7f090048;
+        public static final int editText13=0x7f09004b;
+        public static final int editText14=0x7f09004c;
+        public static final int editText16=0x7f09004f;
+        public static final int editText17=0x7f090050;
+        public static final int editText19=0x7f090053;
+        public static final int editText2=0x7f090034;
+        public static final int editText20=0x7f090054;
+        public static final int editText22=0x7f090028;
+        public static final int editText4=0x7f09003f;
+        public static final int editText5=0x7f090040;
+        public static final int editText6=0x7f090043;
+        public static final int editText7=0x7f090044;
+        public static final int edit_rep_q1=0x7f09005d;
+        public static final int editext3=0x7f090059;
+        public static final int editextil1=0x7f090058;
+        public static final int edt1=0x7f09002e;
+        public static final int edt2=0x7f09002f;
+        public static final int equipement_precedent_bt=0x7f090038;
+        public static final int equipement_suivant_bt=0x7f090039;
+        public static final int l4=0x7f090023;
+        public static final int l4_5=0x7f090025;
+        public static final int l6=0x7f09002c;
+        public static final int lb1=0x7f090033;
+        public static final int lbain=0x7f090030;
+        public static final int lbuttonchange=0x7f090035;
+        public static final int lchauf1=0x7f09001c;
+        public static final int lchauffe=0x7f09001a;
+        public static final int ldouche=0x7f090029;
+        public static final int linearLayout1=0x7f09000b;
+        public static final int linearLayout2=0x7f09000d;
+        public static final int linearLayout3=0x7f090011;
+        public static final int linearLayout4=0x7f09003a;
+        public static final int linearLayout5=0x7f090008;
+        public static final int listView1=0x7f09005e;
+        public static final int lrobinet=0x7f090020;
+        public static final int lsuper=0x7f090019;
+        public static final int main_bt_1=0x7f090006;
+        public static final int quest1=0x7f09000c;
+        public static final int quest2=0x7f090010;
+        public static final int quest3=0x7f090014;
+        public static final int spin1=0x7f090026;
+        public static final int spin2=0x7f09002d;
+        public static final int t1=0x7f09005a;
+        public static final int t2=0x7f09005b;
+        public static final int tV=0x7f090024;
+        public static final int textView1=0x7f090002;
+        public static final int textView10=0x7f09004e;
+        public static final int textView11=0x7f090052;
+        public static final int textView2=0x7f090021;
+        public static final int textView3=0x7f090022;
+        public static final int textView4=0x7f09003e;
+        public static final int textView5=0x7f090042;
+        public static final int textView6=0x7f09003c;
+        public static final int textView7=0x7f090046;
+        public static final int textView9=0x7f09004a;
+        public static final int textViews2=0x7f09002a;
+        public static final int textViews3=0x7f09002b;
+        public static final int textil_precedent_bt=0x7f090056;
+        public static final int textil_suivant_bt=0x7f090057;
+        public static final int titre=0x7f090000;
+>>>>>>> 3dadb1d7ac7afbdd0d1878d03e73b409936c706a
     }
     public static final class layout {
         public static final int activity_alim_lv_item=0x7f030000;
@@ -396,6 +507,7 @@ containing a value of this type.
         public static final int quest_textile=0x7f090007;
     }
     public static final class string {
+<<<<<<< HEAD
         public static final int Aq1=0x7f060021;
         public static final int Aq2=0x7f060022;
         public static final int Aq3=0x7f060023;
@@ -534,6 +646,145 @@ containing a value of this type.
         public static final int tq4col1=0x7f06004d;
         public static final int tq4col2=0x7f06004e;
         public static final int tq4col3=0x7f06004f;
+=======
+        public static final int Aq1=0x7f050022;
+        public static final int Aq2=0x7f050023;
+        public static final int Aq3=0x7f050024;
+        public static final int Aq3c1=0x7f050026;
+        public static final int Aq3c2=0x7f050027;
+        public static final int Aq3c3=0x7f050028;
+        public static final int Aq3c4=0x7f050029;
+        public static final int Aq3c4exemp=0x7f05002a;
+        public static final int Aq3c5=0x7f05002b;
+        public static final int Aq3nom=0x7f050025;
+        public static final int Aq4c1=0x7f05002d;
+        public static final int Aq4c10=0x7f05003a;
+        public static final int Aq4c1exemp=0x7f05002e;
+        public static final int Aq4c2=0x7f05002f;
+        public static final int Aq4c2exemp=0x7f050030;
+        public static final int Aq4c3=0x7f050031;
+        public static final int Aq4c3exemp=0x7f050032;
+        public static final int Aq4c4=0x7f050033;
+        public static final int Aq4c4exemp=0x7f050034;
+        public static final int Aq4c5=0x7f050035;
+        public static final int Aq4c6=0x7f050036;
+        public static final int Aq4c7=0x7f050037;
+        public static final int Aq4c8=0x7f050038;
+        public static final int Aq4c9=0x7f050039;
+        public static final int Aq4nom=0x7f05002c;
+        public static final int Aq5c1=0x7f05003c;
+        public static final int Aq5c2=0x7f05003d;
+        public static final int Aq5c2exemp=0x7f05003e;
+        public static final int Aq5c3=0x7f05003f;
+        public static final int Aq5c3exemp=0x7f050040;
+        public static final int Aq5nom=0x7f05003b;
+        public static final int Aq6c1=0x7f050042;
+        public static final int Aq6c1exemp=0x7f050043;
+        public static final int Aq6c2=0x7f050044;
+        public static final int Aq6c2exemp=0x7f050045;
+        public static final int Aq6c3=0x7f050046;
+        public static final int Aq6c3exemp=0x7f050047;
+        public static final int Aq6nom=0x7f050041;
+        public static final int Aq7c1=0x7f050049;
+        public static final int Aq7c2=0x7f05004a;
+        public static final int Aq7nom=0x7f050048;
+        /**  questionnaire Alimentation 
+         */
+        public static final int Aqcol2=0x7f050021;
+        public static final int Choix_des_questionnaires=0x7f050013;
+        public static final int Fre=0x7f050061;
+        public static final int Lancer_les_questionnaires=0x7f050005;
+        public static final int action_settings=0x7f050001;
+        public static final int alimentation=0x7f05000f;
+        /**  Partie Application sting 
+         */
+        public static final int app_name=0x7f050000;
+        public static final int bienvenue=0x7f050014;
+        public static final int bt_precedent=0x7f05000a;
+        public static final int bt_suivant=0x7f05000b;
+        public static final int comb=0x7f05001e;
+        public static final int combjour=0x7f050020;
+        public static final int combmois=0x7f05001f;
+        public static final int conseils=0x7f050018;
+        public static final int eau_domicile=0x7f050010;
+        /**  formulaire eau 
+         */
+        public static final int edq1=0x7f05005c;
+        public static final int edq1r1=0x7f05005d;
+        public static final int edq1r2=0x7f05005e;
+        public static final int edq1r3=0x7f05005f;
+        public static final int edq2=0x7f050060;
+        public static final int edq2c1=0x7f050062;
+        public static final int edq2c2=0x7f050063;
+        public static final int edq3=0x7f050066;
+        public static final int edq4=0x7f050067;
+        public static final int edq5=0x7f050068;
+        public static final int edq6=0x7f050069;
+        public static final int edq7=0x7f05006a;
+        public static final int edq7c1=0x7f05006b;
+        public static final int edq7c2=0x7f05006c;
+        public static final int edq8=0x7f05006d;
+        public static final int edq8c1=0x7f05006e;
+        public static final int edq8c2=0x7f05006f;
+        public static final int edq8c3=0x7f050070;
+        public static final int edq8c4=0x7f050071;
+        public static final int edq9=0x7f050072;
+        public static final int edq9c1=0x7f050073;
+        public static final int eqc1=0x7f05007a;
+        public static final int eqc2=0x7f05007b;
+        public static final int eqc3=0x7f05007c;
+        public static final int eqc4=0x7f05007d;
+        public static final int eqc5=0x7f05007e;
+        /**  formulaire equipement 
+         */
+        public static final int eqcol1=0x7f050074;
+        public static final int eqcol2=0x7f050075;
+        public static final int eqcol3=0x7f050076;
+        public static final int eqcol4=0x7f050077;
+        public static final int eqcol5=0x7f050078;
+        public static final int eqcol6=0x7f050079;
+        public static final int equipement=0x7f050011;
+        public static final int graphe=0x7f05000c;
+        public static final int hello_world=0x7f05000e;
+        public static final int main_bt_1=0x7f050002;
+        public static final int main_bt_2=0x7f050003;
+        public static final int minute=0x7f050065;
+        public static final int non=0x7f05001d;
+        public static final int optionmenu1=0x7f050017;
+        public static final int optionmenu_a_propos=0x7f05001a;
+        public static final int optionmenu_quit=0x7f050019;
+        public static final int oui=0x7f05001c;
+        public static final int retour=0x7f050015;
+        public static final int retour2=0x7f05001b;
+        public static final int temp=0x7f050064;
+        public static final int textile=0x7f050012;
+        public static final int title_activity_choix_questionnaire=0x7f05000d;
+        public static final int title_activity_conseils2=0x7f050016;
+        public static final int title_activity_graphe=0x7f050009;
+        public static final int title_activity_quest_alimentation=0x7f050004;
+        public static final int title_activity_quest_eau_domicile=0x7f050007;
+        public static final int title_activity_quest_equipement=0x7f050008;
+        public static final int title_activity_quest_textile=0x7f050006;
+        /**  formulaire textile 
+         */
+        public static final int tq1=0x7f05004b;
+        public static final int tq2=0x7f05004c;
+        public static final int tq3=0x7f05004d;
+        public static final int tq4c1=0x7f050051;
+        public static final int tq4c2=0x7f050052;
+        public static final int tq4c3=0x7f050053;
+        public static final int tq4c3exp=0x7f050054;
+        public static final int tq4c4=0x7f050055;
+        public static final int tq4c4exp=0x7f050056;
+        public static final int tq4c5=0x7f050057;
+        public static final int tq4c5exp=0x7f050058;
+        public static final int tq4c6=0x7f050059;
+        public static final int tq4c7=0x7f05005a;
+        public static final int tq4c7exp=0x7f05005b;
+        public static final int tq4col1=0x7f05004e;
+        public static final int tq4col2=0x7f05004f;
+        public static final int tq4col3=0x7f050050;
+>>>>>>> 3dadb1d7ac7afbdd0d1878d03e73b409936c706a
     }
     public static final class style {
         /** 

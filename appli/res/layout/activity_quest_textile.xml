@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,166 +8,501 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Quest_textile" >
 
-    <LinearLayout
-        android:id="@+id/linearLayout1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        style="?android:attr/buttonBarStyle" >
+    
+    
+			    
+		 <LinearLayout
+		 android:id="@+id/linearLayout2"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:orientation="vertical" >
+		
+		     
+		     
+		<!-- Première question Checkbox -->	
+					        <TextView
+					            android:id="@+id/quest1"
+					            android:layout_width="wrap_content"
+					            android:layout_height="wrap_content"
+					            android:layout_weight="0.68"
+					            android:text="@string/tq1"
+					            android:textStyle="bold"
+					            android:textSize="14sp" />
+			
+					        
+		<!-- Première Checkbox -->
+					        <LinearLayout
+					            android:id="@+id/linearLayout3"
+					            android:layout_width="wrap_content"
+					            android:layout_height="34dp"
+					            android:layout_marginBottom="6dp"
+					            android:layout_marginTop="5dp" >
+					
+					            <CheckBox
+					                android:id="@+id/cb_choix1"
+					                android:layout_width="wrap_content"
+					                android:layout_height="match_parent"
+					                android:layout_marginRight="12dp"
+					                android:text="@string/oui"
+					                android:textSize="14sp" />
+					
+					            <CheckBox
+					                android:id="@+id/cb_choix2"
+					                android:layout_width="wrap_content"
+					                android:layout_height="wrap_content"
+					                android:text="@string/non"
+					                android:textSize="14sp" />
+					        </LinearLayout>
+		
+		
+		
+		<!-- Deuxième question Checkbox -->
+					        <TextView
+					            android:id="@+id/quest2"
+					            android:layout_width="match_parent"
+					            android:layout_height="match_parent"
+					            android:text="@string/tq2"
+					            android:textStyle="bold"
+					            android:textSize="14sp"
+					            android:layout_marginTop="15dp" />
+		
+		
+		
+		<!-- Deuxième checkbox -->
+					        <LinearLayout
+					            android:id="@+id/linearLayout4"
+					            android:layout_width="wrap_content"
+					            android:layout_height="34dp"
+					            android:layout_marginBottom="5dp"
+					            android:layout_marginTop="5dp" >
+					
+					            <CheckBox
+					                android:id="@+id/cb_q2choix1"
+					                android:layout_width="wrap_content"
+					                android:layout_height="wrap_content"
+					                android:layout_marginRight="12dp"
+					                android:text="@string/oui"
+					                android:textSize="14sp" />
+					
+					            <CheckBox
+					                android:id="@+id/cb_q2choix2"
+					                android:layout_width="match_parent"
+					                android:layout_height="match_parent"
+					                android:text="@string/non"
+					                android:textSize="14sp" />
+					        </LinearLayout>
+		
+					        
+		<!-- Question spinner -->	
+					        <TextView
+					            android:id="@+id/quest3"
+					            android:layout_width="match_parent"
+					            android:layout_height="match_parent"
+					            android:layout_weight="0.18"
+					            android:text="@string/tq3"
+					            android:textStyle="bold"
+					            android:textSize="14sp"
+					            android:layout_marginTop="15dp" />
+			
+					        
+		<!-- Spinner -->			        
+					        <LinearLayout
+					            android:id="@+id/linearLayout5"
+					            android:layout_width="wrap_content"
+					            android:layout_height="34dp"
+					            android:layout_marginBottom="6dp"
+					            android:layout_marginTop="6dp"
+					            android:layout_weight="0.47" >
+					
+					            <Spinner
+					                android:id="@+id/Spinnertextile"
+					                android:layout_width="wrap_content"
+					                android:layout_height="wrap_content"/>
+					            
+					        </LinearLayout>
+			
+		<!-- nom des colones du tableau -->			        
+					        <LinearLayout
+					            android:layout_width="wrap_content"
+					            android:layout_height="match_parent"
+					            android:layout_weight="0.68"
+					            android:orientation="horizontal" 
+					            android:layout_marginTop="23dp"
+					            >
+					
+							            <TextView
+							                android:id="@+id/textView1"
+							                android:layout_width="wrap_content"
+							                android:layout_height="match_parent"
+							                android:textStyle="bold" 
+							                android:text="@string/tq4col1" />
+							
+							            <TextView
+							                android:id="@+id/textView2"
+							                android:layout_width="118dp"
+							                android:layout_height="match_parent"
+							                android:layout_marginLeft="6dp"                
+							                android:textStyle="bold" 
+							                android:text="@string/tq4col2" />
+							
+							            <TextView
+							                android:id="@+id/textView3"
+							                android:layout_width="wrap_content"
+							                android:layout_height="wrap_content"
+							                android:text="@string/tq4col3"
+							                android:textStyle="bold"             
+							                android:layout_marginLeft="5dp" />
+							</LinearLayout>
+			    
+	<!-- première ligne du tableau -->
+							<LinearLayout 
+							    android:layout_width="wrap_content"
+					            android:layout_height="match_parent"
+					            android:layout_weight="0.68"
+					            android:orientation="horizontal" 
+					            android:layout_marginTop="10dp"
+					            android:layout_marginLeft="10dp">
+							    
+							    			<TextView 
+							    			    android:id="@+id/textView6"
+							                	android:layout_width="wrap_content"
+							                	android:layout_height="wrap_content"
+							                	android:text="@string/tq4c1"
+							                	android:textStyle="bold"             
+							                	android:layout_marginLeft="5dp" 
+							    			    
+							    			    />
 
-        <Button
-            android:id="@+id/textil_precedent_bt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.45"
-            android:background="#99CCCC"
-            style="?android:attr/buttonBarButtonStyle"
-            android:text="@string/bt_precedent" />
+							    			<EditText
+							    			    android:id="@+id/editText1"
+							    			    android:layout_width="59dp"
+							    			    android:layout_height="wrap_content"
+							    			    android:layout_marginLeft="45dp"
+							    			    android:ems="10"
+							    			    android:hint="@string/oui" />
 
-        <Button
-            android:id="@+id/textil_suivant_bt"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.55"
-            android:background="#99CCCC"
-            android:text="@string/bt_suivant" />
-        
+							    			<EditText
+							    			    android:id="@+id/editText2"
+							    			    android:layout_width="wrap_content"
+							    			    android:layout_height="wrap_content"
+							    			    android:hint="@string/oui"
+							    			    android:layout_marginLeft="45dp" >
+
+							    			    <requestFocus />
+							    			</EditText>
+
+							    			<Spinner
+					                			android:id="@+id/Spinnertextile2"
+								                android:layout_width="wrap_content"
+								                android:layout_height="wrap_content"
+								                android:layout_marginLeft="5dp"/>  
+							    
+							</LinearLayout>	
+			<!-- deuxième ligne du tableau -->
+							
+							<LinearLayout 
+							    android:layout_width="wrap_content"
+					            android:layout_height="match_parent"
+					            android:layout_weight="0.68"
+					            android:orientation="horizontal" 
+					            android:layout_marginTop="5dp"
+					            android:layout_marginLeft="2dp">
+							    
+							    			<TextView 
+							    			    android:id="@+id/textView4"
+							                	android:layout_width="wrap_content"
+							                	android:layout_height="wrap_content"
+							                	android:text="@string/tq4c2"
+							                	android:textStyle="bold"             
+							                	android:layout_marginLeft="5dp" 
+							    			    
+							    			    />
+
+							    			<EditText
+							    			    android:id="@+id/editText4"
+							    			    android:layout_width="59dp"
+							    			    android:layout_height="wrap_content"
+							    			    android:layout_marginLeft="35dp"
+							    			    android:ems="10"
+							    			    android:hint="@string/oui" />
+
+							    			<EditText
+							    			    android:id="@+id/editText5"
+							    			    android:layout_width="wrap_content"
+							    			    android:layout_height="wrap_content"
+							    			    android:hint="@string/oui"
+							    			    android:layout_marginLeft="45dp" >
+
+							    			    <requestFocus />
+							    			</EditText>
+
+							    			<Spinner
+					                			android:id="@+id/Spinnertextile3"
+								                android:layout_width="wrap_content"
+								                android:layout_height="wrap_content"
+								                android:layout_marginLeft="5dp"/> 
+							    
+							</LinearLayout>	   
+		<!-- troisième ligne du tableau -->
+							
+							<LinearLayout 
+							    android:layout_width="wrap_content"
+					            android:layout_height="match_parent"
+					            android:layout_weight="0.68"
+					            android:orientation="horizontal"
+					             android:layout_marginTop="5dp" 
+					             android:layout_marginLeft="12dp">
+							    
+							    			<TextView 
+							    			    android:id="@+id/textView5"
+							                	android:layout_width="wrap_content"
+							                	android:layout_height="wrap_content"
+							                	android:text="@string/tq4c3"
+							                	android:textStyle="bold"             
+							                	android:layout_marginLeft="5dp" 
+							    			    
+							    			    />
+
+							    			<EditText
+							    			    android:id="@+id/editText6"
+							    			    android:layout_width="59dp"
+							    			    android:layout_height="wrap_content"
+							    			    android:layout_marginLeft="49dp"
+							    			    android:ems="10"
+							    			    android:hint="@string/oui" />
+
+							    			<EditText
+							    			    android:id="@+id/editText7"
+							    			    android:layout_width="wrap_content"
+							    			    android:layout_height="wrap_content"
+							    			    android:hint="@string/oui"
+							    			    android:layout_marginLeft="45dp" >
+
+							    			    <requestFocus />
+							    			</EditText>
+
+							    			<Spinner
+					                			android:id="@+id/Spinnertextile4"
+								                android:layout_width="wrap_content"
+								                android:layout_height="wrap_content"
+								                android:layout_marginLeft="5dp"/> 
+							    
+							</LinearLayout>	
+		<!-- quatrième ligne du tableau -->
+												
+							<LinearLayout 
+							    android:layout_width="wrap_content"
+					            android:layout_height="match_parent"
+					            android:layout_weight="0.68"
+					            android:orientation="horizontal"
+					             android:layout_marginTop="5dp" 
+					             >
+							    
+							    			<TextView 
+							    			    android:id="@+id/textView7"
+							                	android:layout_width="wrap_content"
+							                	android:layout_height="wrap_content"
+							                	android:text="@string/tq4c4"
+							                	android:textStyle="bold"             
+							                	 
+							    			    
+							    			    />
+
+							    			<EditText
+							    			    android:id="@+id/editText10"
+							    			    android:layout_width="59dp"
+							    			    android:layout_height="wrap_content"
+							    			    android:layout_marginLeft="29dp"
+							    			    android:ems="10"
+							    			    android:hint="@string/oui" />
+
+							    			<EditText
+							    			    android:id="@+id/editText11"
+							    			    android:layout_width="wrap_content"
+							    			    android:layout_height="wrap_content"
+							    			    android:hint="@string/oui"
+							    			    android:layout_marginLeft="45dp" >
+
+							    			    <requestFocus />
+							    			</EditText>
+
+							    			<Spinner
+					                			android:id="@+id/Spinnertextile5"
+								                android:layout_width="wrap_content"
+								                android:layout_height="wrap_content"
+								                android:layout_marginLeft="5dp"/> 
+							    
+							</LinearLayout>	
+						    
+		<!-- cinquième ligne du tableau -->					
+							<LinearLayout 
+							    android:layout_width="wrap_content"
+					            android:layout_height="match_parent"
+					            android:layout_weight="0.68"
+					            android:orientation="horizontal"
+					             android:layout_marginTop="5dp" 
+					             android:layout_marginLeft="15dp">
+							    
+							    			<TextView 
+							    			    android:id="@+id/textView9"
+							                	android:layout_width="wrap_content"
+							                	android:layout_height="wrap_content"
+							                	android:text="@string/tq4c5"
+							                	android:textStyle="bold"             
+							                	android:layout_marginLeft="5dp" 
+							    			    
+							    			    />
+
+							    			<EditText
+							    			    android:id="@+id/editText13"
+							    			    android:layout_width="59dp"
+							    			    android:layout_height="wrap_content"
+							    			    android:layout_marginLeft="52dp"
+							    			    android:ems="10"
+							    			    android:hint="@string/oui" />
+
+							    			<EditText
+							    			    android:id="@+id/editText14"
+							    			    android:layout_width="wrap_content"
+							    			    android:layout_height="wrap_content"
+							    			    android:hint="@string/oui"
+							    			    android:layout_marginLeft="46dp" >
+
+							    			    <requestFocus />
+							    			</EditText>
+
+							    			<Spinner
+					                			android:id="@+id/Spinnertextile6"
+								                android:layout_width="wrap_content"
+								                android:layout_height="wrap_content"
+								                android:layout_marginLeft="5dp"/> 
+							    
+							</LinearLayout>	
+		
+		<!-- sixième ligne du tableau -->
+												
+							<LinearLayout 
+							    android:layout_width="wrap_content"
+					            android:layout_height="match_parent"
+					            android:layout_weight="0.68"
+					            android:orientation="horizontal" 
+					             android:layout_marginTop="5dp"
+					             android:layout_marginLeft="12dp">
+							    
+							    			<TextView 
+							    			    android:id="@+id/textView10"
+							                	android:layout_width="wrap_content"
+							                	android:layout_height="wrap_content"
+							                	android:text="@string/tq4c6"
+							                	android:textStyle="bold"             
+							                	android:layout_marginLeft="5dp" 
+							    			    
+							    			    />
+
+							    			<EditText
+							    			    android:id="@+id/editText16"
+							    			    android:layout_width="59dp"
+							    			    android:layout_height="wrap_content"
+							    			    android:layout_marginLeft="47dp"
+							    			    android:ems="10"
+							    			    android:hint="@string/oui" />
+
+							    			<EditText
+							    			    android:id="@+id/editText17"
+							    			    android:layout_width="wrap_content"
+							    			    android:layout_height="wrap_content"
+							    			    android:hint="@string/oui"
+							    			    android:layout_marginLeft="46dp" >
+
+							    			    <requestFocus />
+							    			</EditText>
+
+							    			<Spinner
+					                			android:id="@+id/Spinnertextile7"
+								                android:layout_width="wrap_content"
+								                android:layout_height="wrap_content"
+								                android:layout_marginLeft="5dp"/> 
+							    
+							</LinearLayout>	
+		
+		<!-- septième ligne du tableau -->					
+							<LinearLayout 
+							    android:layout_width="wrap_content"
+					            android:layout_height="match_parent"
+					            android:layout_weight="0.68"
+					            android:orientation="horizontal"
+					             android:layout_marginTop="5dp"
+					             android:layout_marginBottom="25dp" >
+							    
+							    			<TextView 
+							    			    android:id="@+id/textView11"
+							                	android:layout_width="wrap_content"
+							                	android:layout_height="wrap_content"
+							                	android:text="@string/tq4c7"
+							                	android:textStyle="bold"             
+							              						    			    
+							    			    />
+
+							    			<EditText
+							    			    android:id="@+id/editText19"
+							    			    android:layout_width="59dp"
+							    			    android:layout_height="wrap_content"
+							    			    android:layout_marginLeft="28dp"
+							    			    android:ems="10"
+							    			    android:hint="@string/oui" />
+
+							    			<EditText
+							    			    android:id="@+id/editText20"
+							    			    android:layout_width="wrap_content"
+							    			    android:layout_height="wrap_content"
+							    			    android:hint="@string/oui"
+							    			    android:layout_marginLeft="48dp" >
+
+							    			    <requestFocus />
+							    			</EditText>
+
+							    			<Spinner
+					                			android:id="@+id/Spinnertextile8"
+								                android:layout_width="wrap_content"
+								                android:layout_height="wrap_content"
+								                android:layout_marginLeft="5dp"/> 
+							    
+							</LinearLayout>	
+		<!-- fin du tableau -->	    
+			    
+			    
+		<!-- bouton suivant et précédent -->
+
+			    <LinearLayout    
+			        android:id="@+id/linearLayout1"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        style="?android:attr/buttonBarStyle"
+			        android:layout_marginTop="15dp" >
+			
+					        <Button
+					            android:id="@+id/textil_precedent_bt"
+					            android:layout_width="wrap_content"
+					            android:layout_height="match_parent"
+					            android:layout_weight="1"
+					            android:background="#99CCCC"
+					            style="?android:attr/buttonBarButtonStyle"
+					            android:text="@string/bt_precedent" />
+
+					        <Button
+					            android:id="@+id/textil_suivant_bt"
+					            style="?android:attr/buttonBarButtonStyle"
+					            android:layout_width="wrap_content"
+					            android:layout_height="match_parent"
+					            android:layout_weight="1"
+					            android:background="#99CCCC"
+					            android:text="@string/bt_suivant" />
+					        
+			     </LinearLayout>
+			     
+			    <!-- fin des boutons -->
+
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical" >
-
-        <TextView
-            android:id="@+id/quest1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.68"
-            android:text="@string/tq1"
-            android:textSize="14sp" />
-
-        <LinearLayout
-            android:id="@+id/linearLayout3"
-            android:layout_width="wrap_content"
-            android:layout_height="34dp"
-            android:layout_marginBottom="6dp"
-            android:layout_marginTop="5dp" >
-
-            <CheckBox
-                android:id="@+id/cb_choix1"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginRight="12dp"
-                android:text="@string/oui"
-                android:textSize="14sp" />
-
-            <CheckBox
-                android:id="@+id/cb_choix2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/non"
-                android:textSize="14sp" />
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/quest2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/tq2"
-            android:textSize="14sp" />
-
-        <LinearLayout
-            android:id="@+id/linearLayout4"
-            android:layout_width="wrap_content"
-            android:layout_height="34dp"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp" >
-
-            <CheckBox
-                android:id="@+id/cb_q2choix1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="12dp"
-                android:text="@string/oui"
-                android:textSize="14sp" />
-
-            <CheckBox
-                android:id="@+id/cb_q2choix2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/non"
-                android:textSize="14sp" />
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/quest3"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="0.18"
-            android:text="@string/tq3"
-            android:textSize="14sp" />
-
-        <LinearLayout
-            android:id="@+id/linearLayout5"
-            android:layout_width="wrap_content"
-            android:layout_height="34dp"
-            android:layout_marginBottom="6dp"
-            android:layout_marginTop="6dp"
-            android:layout_weight="0.47" >
-
-            <Spinner
-                android:id="@+id/Spinnertextile"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-            
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="0.68"
-            android:orientation="horizontal" >
-
-            <TextView
-                android:id="@+id/textView1"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:background="#FFFFCC"
-                android:text="@string/tq4col1" />
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="118dp"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="6dp"
-                android:background="#FFFFCC"
-                android:text="@string/tq4col2" />
-
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/tq4col3"
-                android:background="#FFFFCC"                
-                android:layout_marginLeft="5dp" />
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <ListView
-        android:id="@+id/listViewTextil"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/linearLayout1"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/linearLayout2" >
-
-    </ListView>
         
-</RelativeLayout>
+</ScrollView>

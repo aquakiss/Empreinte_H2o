@@ -26,6 +26,7 @@ public class Quest_equipement extends Activity {
 			public void onClick(View arg0) {
 				Intent changeActivity = new Intent(getApplicationContext(), Graphe.class);
 				startActivity(changeActivity);
+				finish();
 			}
 		});
         
@@ -35,6 +36,7 @@ public class Quest_equipement extends Activity {
     		public void onClick(View arg0) {
     			Intent changeActivity = new Intent(getApplicationContext(), Quest_eau_domicile.class);
     			startActivity(changeActivity);
+    			finish();
     		}
     	});
 	
@@ -147,13 +149,14 @@ public class Quest_equipement extends Activity {
 			Toast.makeText(this, "redirection en cours", Toast.LENGTH_SHORT).show();
 				Intent changeActivity = new Intent(getApplicationContext(), MainActivity.class);
 				startActivity(changeActivity);
+				finish();
             return true;
 	  	        case R.id.action_settings_apropos:
 	  	        	Toast.makeText(this, "Hello a propos!", Toast.LENGTH_SHORT).show();
 	   	            return true;
 		    	case R.id.action_settings_quit:
 		    		Toast.makeText(this, "Merci de ta visite", Toast.LENGTH_SHORT).show();
-		    		onDestroy();
+		    		finish();
 		                return true;
 	           default:
 	 	            return super.onOptionsItemSelected(item);
