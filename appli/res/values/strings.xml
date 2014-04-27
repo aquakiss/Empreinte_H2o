@@ -108,7 +108,8 @@
 	<string name="edq1r1">Electricité</string>
 	<string name="edq1r2">Gaz naturel</string>
 	<string name="edq1r3">Panneau solaire</string>
-	<string name="edq2">Utilisation du robinet</string>
+	<string name="edq2">Robinet</string>
+	<string name="edqutil">Utilisation</string>
 	<string name="Fre">Fréquence</string>
 	<string name="edq2c1">Lavabo rempli</string>
 	<string name="edq2c2">Lavabo robinet ouvert</string>
@@ -118,6 +119,7 @@
 	<string name="edq4">Bain</string>
 	<string name="edq5">WC</string>
 	<string name="edq6">Consommables</string>
+	<string name="eddent">Brossage de dents</string>
 	<string name="edq7">Loisirs</string>
 	<string name="edq7c1">Piscine</string>
 	<string name="edq7c2">Lavage voiture</string>
@@ -128,6 +130,8 @@
 	<string name="edq8c4">Fait-tu attention aux dossages prescrit sur le bidon de lessive?</string>
 	<string name="edq9">Vaisselle</string>
 	<string name="edq9c1">Mode de nettoyage</string>
+	<string name="edpchasse">Petite chasse</string>
+	<string name="edgchasse">Grosse chasse</string>
 	
 	<!-- formulaire equipement -->
 	
@@ -168,18 +172,78 @@
 	
 		<!-- Spinner Textile -->
 	
-	<string-array name="eau_robi1_array">
+	<string-array name="textil1_array">
 	    	
 	<item name="sp_eau_rob1a">Le donne à</item>    
 	<item name="sp_eau_rob1b">Le jette à</item>
 	<item name="sp_eau_rob1c">Je conserve</item>
 	</string-array>
 	
-	<string-array name="eau_robi2_array">	
+	<string-array name="textil2_array">	
 	    
 	<item name="sp_eau_rob2a">quelqu\'un (ou association)</item>    
 	<item name="sp_eau_rob2b">poubelle</item>
 	<item name="sp_eau_rob2c">tout</item>
 	</string-array>
 	
+	<!-- Spinner Eau -->
+	
+	<string-array name="eau_robi1_array">
+	    	
+	<item name="sp_eau_rob1a">Avec limiteur de débit</item>    
+	<item name="sp_eau_rob1b">Sans limiteur de débit</item>
+	</string-array>
+	
+	<string-array name="eau_robi2_array">	
+	    
+	<item name="sp_eau_rob2a">Chasse d\'eau normal</item>    
+	<item name="sp_eau_rob2b">Bouteille d\'eau(1,5L)</item>
+	<item name="sp_eau_rob2c">Chasse d\'eau dual</item>
+	</string-array>
+	
+	<string-array name="eau_robi3_array">	
+	    
+	<item name="sp_eau_rob3a">Papier WC vierge</item>    
+	<item name="sp_eau_rob3b">Papier WC recycler</item>
+	</string-array>
+	
+	<string-array name="eau_robi4_array">	
+	    
+	<item name="sp_eau_rob2a">Oui</item>    
+	<item name="sp_eau_rob2b">Non</item>
+	</string-array>
+	
+	<string-array name="eau_robi5_array">	
+	    
+	<item name="sp_eau_rob2a">A la main</item>    
+	<item name="sp_eau_rob2b">Rouleau</item>
+	<item name="sp_eau_rob2c">Haute pression</item>
+	</string-array>
+	
+	<string-array name="eau_robi6_array">	
+	    
+	<item name="sp_eau_rob2a">Lave linge-classeD</item>    
+	<item name="sp_eau_rob2b">Lave linge-classeA</item>
+	<item name="sp_eau_rob2c">Lave linge-classeA+++</item>
+	</string-array>
+	
+	<string-array name="eau_robi7_array">	
+	    
+	<item name="sp_eau_rob2a">Lessive standart</item>    
+	<item name="sp_eau_rob2b">Lessive ecolabel</item>
+	<item name="sp_eau_rob2c">WashBall</item>
+	</string-array>
+	
+	<string-array name="eau_robi8_array">	
+	    
+	<item name="sp_eau_rob2a">A la main,bac remplis</item>    
+	<item name="sp_eau_rob2b">A la main,eau courante</item>
+	</string-array>
+	
+	<string-array name="eau_robi9_array">	
+	    
+	<item name="sp_eau_rob2a">Lave vaisselle-classeD</item>    
+	<item name="sp_eau_rob2b">Lave vaisselle-classeA</item>
+	<item name="sp_eau_rob2c">Lave vaisselle-classeA+++</item>
+	</string-array>
 </resources>
