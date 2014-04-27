@@ -106,7 +106,7 @@ public class Quest_alimentation extends Activity {
 	    				finish();
 	                return true;
 	  	        case R.id.action_settings_apropos:
-	  	        	Toast.makeText(this, "Hello à propos!", Toast.LENGTH_SHORT).show();
+	  	        	Toast.makeText(this, "Application réalisée par Cazaubon Baptiste, Estival Nicolas et Menard Romain", Toast.LENGTH_SHORT).show();
 	   	            return true;
 		    	case R.id.action_settings_quit:
 		    		Toast.makeText(this, "Merci de ta visite", Toast.LENGTH_SHORT).show();

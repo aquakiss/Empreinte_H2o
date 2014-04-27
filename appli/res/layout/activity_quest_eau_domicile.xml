@@ -71,7 +71,6 @@
 		        android:textSize="14sp"
 			    android:textStyle="bold"
 			    android:layout_marginLeft="5dp"
-<<<<<<< HEAD
 			    android:layout_marginRight="50dp"
 		        android:text="@string/edqutil" />
 		    
@@ -81,52 +80,10 @@
 		        android:layout_marginLeft="10dp" 
 		        android:text="@string/Fre" 
 		        android:textSize="14sp" 
-		        android:textStyle="bold"/>
-		    
+		        android:textStyle="bold"/>		    
 		</LinearLayout>	
 		
-		<LinearLayout    
-		    android:id="@+id/lrobin"
-		    android:layout_width="match_parent"
-		    android:layout_height="wrap_content"
-		    android:orientation="horizontal">
-		 
-		    <TextView
-		        android:id="@+id/textV2"
-=======
-			    android:layout_marginRight="10dp"
-		        android:text="@string/edqutil" />
-		    
-		     <TextView
-		        android:id="@+id/textView3"
->>>>>>> a34904d524f663368003fd4d712a5b275752815e
-		        android:layout_width="wrap_content"
-		   	    android:layout_height="wrap_content"
-		        android:textSize="14sp"
-			    android:textStyle="bold"
-<<<<<<< HEAD
-=======
-			    android:layout_marginLeft="10dp"
-		        android:text="@string/Fre" />
-		</LinearLayout>	
-		<LinearLayout    
-		    android:id="@+id/lrobin"
-		    android:layout_width="match_parent"
-		    android:layout_height="wrap_content"
-		    android:orientation="horizontal">
-		 
-		    <TextView
-		        android:id="@+id/textV2"
-		        android:layout_width="wrap_content"
-		   	    android:layout_height="wrap_content"
-		        android:textSize="14sp"
-			    android:textStyle="bold"
->>>>>>> a34904d524f663368003fd4d712a5b275752815e
-			    android:layout_marginLeft="5dp"
-			    android:layout_marginRight="10dp"
-		        android:text="@string/edq2" />
-		    
-		    </LinearLayout>	
+		
 		
 		<LinearLayout
 		    android:id="@+id/l4"
@@ -138,11 +95,7 @@
 		        android:id="@+id/tV"
 		        android:layout_width="wrap_content"
 		   	    android:layout_height="wrap_content"
-<<<<<<< HEAD
 		   	    android:layout_marginRight="130dp"
-=======
-		   	    android:layout_marginRight="15dp"
->>>>>>> a34904d524f663368003fd4d712a5b275752815e
 		   	    android:layout_marginLeft="3dp"		   	    
 		        android:textSize="12sp"
 		        android:text="@string/edq2c1" />
@@ -151,10 +104,7 @@
 		        android:id="@+id/edit"
 		        android:layout_width="wrap_content"
 		   	    android:layout_height="wrap_content"
-<<<<<<< HEAD
-=======
 		   	    android:layout_marginLeft="22dp"
->>>>>>> a34904d524f663368003fd4d712a5b275752815e
 		   	    android:textSize="12sp"
 		   	    android:hint="@string/combmois" />
 		    </LinearLayout>
@@ -167,24 +117,17 @@
 
 		     <TextView
 		         android:id="@+id/textView1"
-<<<<<<< HEAD
 		         android:layout_width="82dp"
-=======
-		         android:layout_width="100dp"
-		         android:textSize="12sp"
->>>>>>> a34904d524f663368003fd4d712a5b275752815e
 		         android:layout_height="wrap_content"
 		         android:text="@string/edq2c2"
 		         android:textSize="12sp" />
 
 		     <Spinner
 		         android:id="@+id/spinrob1"
-<<<<<<< HEAD
 		         android:layout_width="match_parent"
 		         android:layout_height="wrap_content"
 		         android:layout_marginRight="30dp"
-		         android:textSize="12sp" />
-		     
+		         android:textSize="12sp" />		     
 		</LinearLayout>
 		
 		  <LinearLayout
@@ -192,28 +135,15 @@
 		     android:layout_width="match_parent"
 		     android:layout_height="63dp"
 		     android:orientation="horizontal" >
-=======
-		         android:layout_width="70dp"
-		         android:textSize="12sp"
-		         android:layout_height="wrap_content" />
->>>>>>> a34904d524f663368003fd4d712a5b275752815e
 
 		     <EditText
 		         android:id="@+id/editText1.5"
 		         android:layout_width="wrap_content"
-<<<<<<< HEAD
 		         android:layout_height="47dp"
 		         android:ems="6"
 		         android:hint="@string/temp"
 		         android:layout_marginLeft="150dp"
 		         android:textSize="12sp" />
-=======
-		         android:layout_height="wrap_content"
-		         android:layout_weight="1"
-		         android:textSize="12sp"
-		         android:ems="6" 
-		         android:hint="@string/temp" />
->>>>>>> a34904d524f663368003fd4d712a5b275752815e
 		     
 		    <EditText
 		         android:id="@+id/editText2.2"
@@ -221,8 +151,7 @@
 		         android:layout_height="wrap_content"
 		         android:ems="6"
 		         android:textSize="12sp"
-		         android:hint="@string/combjour" />
-		     
+		         android:hint="@string/combjour" />		     
 		</LinearLayout>
     
 		<LinearLayout
@@ -258,23 +187,16 @@
 			<EditText
 			    android:id="@+id/edt1"
 			    android:layout_width="wrap_content"
-<<<<<<< HEAD
 			    android:layout_height="39dp"
 			    android:hint="@string/temp"
 			    android:textSize="12sp" />
-=======
-			    android:layout_height="wrap_content"
-			    android:textSize="12sp"
-			    android:hint="@string/temp" />
->>>>>>> a34904d524f663368003fd4d712a5b275752815e
 
 			<EditText
 			    android:id="@+id/edt2"
 			    android:layout_width="82dp"
 			    android:textSize="12sp"
 			    android:layout_height="wrap_content"
-			    android:hint="@string/combjour" />
-		    
+			    android:hint="@string/combjour" />		    
 		</LinearLayout>
 		    
 		<LinearLayout
@@ -292,8 +214,7 @@
 			    android:textStyle="bold"
 			    android:layout_marginLeft="15dp"
 			    android:layout_marginRight="30dp"
-		        android:text="@string/edq4" />	
-		    
+		        android:text="@string/edq4" />			    
 		 </LinearLayout>
 		 
 		<LinearLayout
@@ -308,13 +229,8 @@
 			    android:layout_height="wrap_content"
 			    android:ems="10"
 			    android:textSize="12sp"
-<<<<<<< HEAD
-			    android:layout_marginLeft="165dp"
-=======
 			    android:layout_marginLeft="100dp"
->>>>>>> a34904d524f663368003fd4d712a5b275752815e
-			    android:hint="@string/combjour" />
-			
+			    android:hint="@string/combjour" />			
 		</LinearLayout>
 		
 		<LinearLayout
@@ -332,8 +248,7 @@
 			    android:textStyle="bold"
 			    android:layout_marginRight="30dp"
 			    android:layout_marginLeft="15dp"
-		        android:text="@string/edq5" />	
-		    
+		        android:text="@string/edq5" />			    
 		 </LinearLayout>
 		 
 		<LinearLayout
@@ -344,26 +259,17 @@
 
 			<Spinner
 			    android:id="@+id/spinwc1"
-<<<<<<< HEAD
 			    android:layout_width="140dp"
 			    android:layout_height="wrap_content"
 			    android:textSize="12sp" />
-=======
-			    android:layout_width="184dp"
-			    android:textSize="12sp"
-			    android:layout_height="wrap_content" />
->>>>>>> a34904d524f663368003fd4d712a5b275752815e
 
 			<TextView
 			    android:id="@+id/textView4"
 			    android:layout_width="wrap_content"
 			    android:layout_height="wrap_content"
 			    android:textSize="12sp"
-<<<<<<< HEAD
 			    android:layout_marginLeft="5dp"
 			    android:layout_marginRight="5dp"
-=======
->>>>>>> a34904d524f663368003fd4d712a5b275752815e
 			    android:text="@string/edpchasse" />
 
 			<EditText
@@ -373,10 +279,8 @@
 			    android:ems="10"
 			    android:textSize="12sp"
 			    android:hint="@string/combjour" >
-
 			    <requestFocus />
-			</EditText>
-		    
+			</EditText>		    
 		 </LinearLayout>
 
 		 <LinearLayout
@@ -387,45 +291,25 @@
 
 		     <Spinner
 		         android:id="@+id/spinw2"
-<<<<<<< HEAD
 		         android:layout_width="122dp"
 		         android:layout_height="wrap_content"
 		         android:textSize="12sp" />
-=======
-		         android:layout_width="wrap_content"
-		         android:layout_height="wrap_content"
-		         android:textSize="12sp"
-		         android:layout_weight="1" />
->>>>>>> a34904d524f663368003fd4d712a5b275752815e
 
 		     <TextView
 		         android:id="@+id/tV2"
 		         android:layout_width="wrap_content"
 		         android:layout_height="wrap_content"
-<<<<<<< HEAD
 		         android:layout_marginRight="5dp"
-=======
-		         android:layout_weight="1"
->>>>>>> a34904d524f663368003fd4d712a5b275752815e
 		         android:text="@string/edgchasse" />
 
 		     <EditText
 		         android:id="@+id/eT2"
 		         android:layout_width="match_parent"
 		         android:layout_height="wrap_content"
-<<<<<<< HEAD
 		         android:ems="3"
 		         android:hint="@string/combjour"
 		         android:textSize="12sp" />
 		 </LinearLayout>
-=======
-		         android:layout_weight="1"
-		         android:hint="@string/combjour"
-		         android:textSize="12sp"
-		         android:ems="10" />
-		     
-		  </LinearLayout>
->>>>>>> a34904d524f663368003fd4d712a5b275752815e
 		 
 		<LinearLayout
 		    android:id="@+id/lconsom"
@@ -442,8 +326,7 @@
 			    android:textStyle="bold"
 			    android:layout_marginLeft="15dp"
 			    android:layout_marginRight="30dp"
-		        android:text="@string/edq6" />	
-		    
+		        android:text="@string/edq6" />			    
 		 </LinearLayout>
 		 
 		<LinearLayout
@@ -466,13 +349,8 @@
 			    android:layout_height="wrap_content"
 			    android:ems="10"
 			    android:textSize="12sp"
-<<<<<<< HEAD
 			    android:layout_marginLeft="70dp"
-=======
-			    android:layout_marginLeft="30dp"
->>>>>>> a34904d524f663368003fd4d712a5b275752815e
-			    android:hint="@string/combjour" />
-		    
+			    android:hint="@string/combjour" />		    
 		 </LinearLayout>
 		 
 		<LinearLayout
@@ -490,8 +368,7 @@
 			    android:textStyle="bold"
 			    android:layout_marginLeft="15dp"
 			    android:layout_marginRight="30dp"
-		        android:text="@string/edq7" />	
-		    
+		        android:text="@string/edq7" />		    
 		 </LinearLayout>
 		 
 		<LinearLayout
@@ -513,8 +390,7 @@
 			    android:layout_width="wrap_content"
 			    android:layout_height="wrap_content"
 			    android:textSize="12sp"
-			    android:layout_marginLeft="35dp" />
-		    
+			    android:layout_marginLeft="35dp" />		    
 		 </LinearLayout>
 		 
 		<LinearLayout
@@ -543,8 +419,7 @@
 			    android:layout_height="wrap_content"
 			    android:layout_marginLeft="5dp"
 			    android:textSize="12sp"
-			    android:hint="@string/combmois" />
-		    
+			    android:hint="@string/combmois" />		    
 		 </LinearLayout>
 		 
 		<LinearLayout
@@ -584,9 +459,7 @@
 			    android:textSize="12sp"
 			    android:hint="@string/edq8c2"
 			    android:ems="10" />
-		    
-<<<<<<< HEAD
-		</LinearLayout>
+		    </LinearLayout>
 		
 		<LinearLayout
 		    android:id="@+id/lless2"
@@ -604,36 +477,10 @@
 			<Spinner
 			    android:id="@+id/spinless1"
 			    android:layout_width="wrap_content"
-			    android:layout_height="wrap_content" />
-		    
+			    android:layout_height="wrap_content" />		    
 		</LinearLayout>
 		
 		<LinearLayout
-=======
-		</LinearLayout>
-		
-		<LinearLayout
-		    android:id="@+id/lless2"
-		    android:layout_width="match_parent"
-		    android:layout_height="wrap_content"
-		    android:orientation="horizontal">
-
-			<TextView
-			    android:id="@+id/tVless2"
-			    android:layout_width="wrap_content"
-			    android:layout_height="wrap_content"
-			    android:textSize="12sp"
-			    android:text="@string/edq8c2" />
-
-			<Spinner
-			    android:id="@+id/spinless1"
-			    android:layout_width="wrap_content"
-			    android:layout_height="wrap_content" />
-		    
-		</LinearLayout>
-		
-		<LinearLayout
->>>>>>> a34904d524f663368003fd4d712a5b275752815e
 		    android:id="@+id/lless3"
 		    android:layout_width="match_parent"
 		    android:layout_height="wrap_content"
@@ -659,8 +506,7 @@
 			    android:layout_weight="1"
 			    android:hint="@string/combjour"
 			    android:textSize="12sp"
-			    android:ems="10" />
-		    
+			    android:ems="10" />		    
 		 </LinearLayout>
 		 
 		<LinearLayout
@@ -675,7 +521,6 @@
 			    android:layout_height="wrap_content"
 			    android:textSize="12sp"
 			    android:text="@string/edq8c4" />
-<<<<<<< HEAD
 			</LinearLayout>
 			
 			<LinearLayout
@@ -683,25 +528,16 @@
 		    android:layout_width="match_parent"
 		    android:layout_height="wrap_content"
 		    android:orientation="horizontal">
-				
-=======
-
->>>>>>> a34904d524f663368003fd4d712a5b275752815e
+			
 			<Spinner
 			    android:id="@+id/spinless3"
 			    android:layout_width="wrap_content"
 			    android:layout_height="wrap_content"
-<<<<<<< HEAD
 			    android:layout_marginLeft="140dp"
-			    android:textSize="12sp"/>
-		    
+			    android:textSize="12sp"/>		    
 			</LinearLayout>
-=======
-			    android:textSize="12sp"/>
 		    
-		</LinearLayout>		
->>>>>>> a34904d524f663368003fd4d712a5b275752815e
-		
+	
 		<LinearLayout
 		    android:id="@+id/lvaisselle"
 		    android:layout_width="match_parent"
@@ -744,13 +580,8 @@
 				    android:layout_height="wrap_content"
 				    android:layout_weight="1"
 				    android:ems="10"
-<<<<<<< HEAD
 				    android:hint="@string/combjour"
-=======
-				    android:hint=""
->>>>>>> a34904d524f663368003fd4d712a5b275752815e
-				    android:textSize="12sp" />
-		    
+				    android:textSize="12sp" />		    
 			 </LinearLayout>
 			 
 			<LinearLayout
@@ -772,12 +603,7 @@
 				    android:layout_weight="1"
 				    android:ems="10"
 				    android:textSize="12sp"
-<<<<<<< HEAD
 				    android:hint="@string/combjour" />
-=======
-				    android:hint="" />
->>>>>>> a34904d524f663368003fd4d712a5b275752815e
-		    
 			 </LinearLayout>
 		
 		 		
@@ -805,9 +631,9 @@
             android:background="#99CCCC"
             android:layout_weight="1"
             style="?android:attr/buttonBarButtonStyle"
-            android:text="@string/bt_suivant" />
-		    
+            android:text="@string/bt_suivant" />		    
 		</LinearLayout>
 
     </LinearLayout>
+    
 </ScrollView>
