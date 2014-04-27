@@ -443,6 +443,8 @@
 		    android:id="@+id/lless1"
 		    android:layout_width="match_parent"
 		    android:layout_height="wrap_content"
+		    android:layout_marginTop="10dp"
+		    android:layout_marginBottom="15dp"
 		    android:orientation="horizontal">
 
 			<TextView
@@ -465,7 +467,8 @@
 		    android:id="@+id/lless2"
 		    android:layout_width="match_parent"
 		    android:layout_height="wrap_content"
-		    android:orientation="horizontal">
+		    android:orientation="horizontal"
+		    android:layout_marginBottom="15dp">
 
 			<TextView
 			    android:id="@+id/tVless2"
@@ -513,6 +516,7 @@
 		    android:id="@+id/lless4"
 		    android:layout_width="match_parent"
 		    android:layout_height="wrap_content"
+		    android:layout_marginTop="20dp"
 		    android:orientation="horizontal">
 
 			<TextView
@@ -559,6 +563,7 @@
 		    android:id="@+id/lvaiss1"
 		    android:layout_width="match_parent"
 		    android:layout_height="wrap_content"
+		    android:layout_marginBottom="15dp"
 		    android:orientation="horizontal" >
 
 				<TextView
