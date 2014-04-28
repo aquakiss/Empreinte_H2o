@@ -9,20 +9,63 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TabHost;
+import android.widget.TabHost.TabSpec;
 import android.widget.Toast;
+
 
 public class MainActivity extends Activity {
 
+	private TabHost tabHost;
+	private TabSpec tabSpec;
 	@Override
 	protected void onCreate(Bundle savedInstanceClose_all_Activity) {
 		super.onCreate(savedInstanceClose_all_Activity);
 		setContentView(R.layout.activity_main);
-		
+				
         Button changeButton = (Button) findViewById(R.id.main_bt_1);
         changeButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
 				Intent changeActivity = new Intent(getApplicationContext(), Quest_alimentation.class);
+				startActivity(changeActivity);
+				finish();
+			}
+		});
+        
+        ////////////////////////Menu de selection rapide /////////////////////
+        Button menualim = (Button) findViewById(R.id.btalim);
+        menualim.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				Intent changeActivity = new Intent(getApplicationContext(), Quest_alimentation.class);
+				startActivity(changeActivity);
+				finish();
+			}
+		});
+        Button menueau = (Button) findViewById(R.id.bteau);
+        menueau.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				Intent changeActivity = new Intent(getApplicationContext(), Quest_eau_domicile.class);
+				startActivity(changeActivity);
+				finish();
+			}
+		});
+        Button menuequip = (Button) findViewById(R.id.btequip);
+        menuequip.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				Intent changeActivity = new Intent(getApplicationContext(), Quest_equipement.class);
+				startActivity(changeActivity);
+				finish();
+			}
+		});
+        Button menutext = (Button) findViewById(R.id.bttext);
+        menutext.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				Intent changeActivity = new Intent(getApplicationContext(), Quest_textile.class);
 				startActivity(changeActivity);
 				finish();
 			}

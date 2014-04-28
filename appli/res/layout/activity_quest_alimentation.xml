@@ -7,15 +7,15 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Quest_alimentation" >
-
+    
     <LinearLayout
         android:id="@+id/linearLayout5"
+        style="?android:attr/buttonBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        style="?android:attr/buttonBarStyle" >
+        android:layout_alignParentRight="true" >
 
         <Button
             android:id="@+id/alim_precedent_bt"
@@ -43,6 +43,43 @@
         android:layout_height="wrap_content"
         android:orientation="vertical" >
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.68"
+            android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btalim"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/bouffe" />
+        
+        <Button
+            android:id="@+id/bttext"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/vet" />
+
+        <Button
+            android:id="@+id/bteau"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/eau" />
+
+        <Button
+            android:id="@+id/btequip"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/multi" />
+    </LinearLayout>
+
         <TextView
             android:id="@+id/quest1"
             android:layout_width="wrap_content"
@@ -55,9 +92,7 @@
         <LinearLayout
             android:id="@+id/linearLayout2"
             android:layout_width="wrap_content"
-            android:layout_height="34dp"
-            android:layout_marginBottom="9dp"
-            android:layout_marginTop="9dp" >
+            android:layout_height="28dp">
 
             <CheckBox
                 android:id="@+id/cb_choix1"
@@ -86,9 +121,7 @@
         <LinearLayout
             android:id="@+id/linearLayout3"
             android:layout_width="wrap_content"
-            android:layout_height="34dp"
-            android:layout_marginBottom="9dp"
-            android:layout_marginTop="9dp" >
+            android:layout_height="28dp" >
 
             <CheckBox
                 android:id="@+id/cb_q2choix1"
@@ -113,6 +146,7 @@
             android:layout_weight="0.18"
             android:text="@string/Aq3"
             android:textStyle="bold"
+            android:layout_marginTop="8dp"
             android:textSize="14sp" />
 
     </LinearLayout>
