@@ -33,45 +33,44 @@ public class MainActivity extends Activity {
 			}
 		});
         
-        ////////////////////////Menu de selection rapide /////////////////////
-        Button menualim = (Button) findViewById(R.id.btalim);
-        menualim.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View arg0) {
-				Intent changeActivity = new Intent(getApplicationContext(), Quest_alimentation.class);
-				startActivity(changeActivity);
-				finish();
-			}
-		});
-        Button menueau = (Button) findViewById(R.id.bteau);
-        menueau.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View arg0) {
-				Intent changeActivity = new Intent(getApplicationContext(), Quest_eau_domicile.class);
-				startActivity(changeActivity);
-				finish();
-			}
-		});
-        Button menuequip = (Button) findViewById(R.id.btequip);
-        menuequip.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View arg0) {
-				Intent changeActivity = new Intent(getApplicationContext(), Quest_equipement.class);
-				startActivity(changeActivity);
-				finish();
-			}
-		});
-        Button menutext = (Button) findViewById(R.id.bttext);
-        menutext.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View arg0) {
-				Intent changeActivity = new Intent(getApplicationContext(), Quest_textile.class);
-				startActivity(changeActivity);
-				finish();
-			}
-		});
-        
-        
+	////////////////////////Menu de selection rapide /////////////////////
+	Button menualim = (Button) findViewById(R.id.btalim);
+	menualim.setOnClickListener(new OnClickListener() {
+		@Override
+		public void onClick(View arg0) {
+		Intent changeActivity = new Intent(getApplicationContext(), Quest_alimentation.class);
+		startActivity(changeActivity);
+		finish();
+		}
+	});
+	Button menutext = (Button) findViewById(R.id.bttext);
+	menutext.setOnClickListener(new OnClickListener() {
+		@Override
+		public void onClick(View arg0) {
+		Intent changeActivity = new Intent(getApplicationContext(), Quest_textile.class);
+		startActivity(changeActivity);
+		finish();
+		}
+	});
+	Button menueau = (Button) findViewById(R.id.bteau);
+	menueau.setOnClickListener(new OnClickListener() {
+		@Override
+		public void onClick(View arg0) {
+		Intent changeActivity = new Intent(getApplicationContext(), Quest_eau_domicile.class);
+		startActivity(changeActivity);
+		finish();
+		}
+	});
+	Button menuequip = (Button) findViewById(R.id.btequip);
+	menuequip.setOnClickListener(new OnClickListener() {
+		@Override
+		public void onClick(View arg0) {
+		Intent changeActivity = new Intent(getApplicationContext(), Quest_equipement.class);
+		startActivity(changeActivity);
+		finish();
+		}
+	});
+       
 	}
 
     @Override

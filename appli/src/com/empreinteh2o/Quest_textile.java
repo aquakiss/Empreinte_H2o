@@ -49,41 +49,41 @@ public class Quest_textile extends Activity {
        
         ////////////////////////Menu de selection rapide /////////////////////
         Button menualim = (Button) findViewById(R.id.btalim);
-        menualim.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View arg0) {
-				Intent changeActivity = new Intent(getApplicationContext(), Quest_alimentation.class);
-				startActivity(changeActivity);
-				finish();
-			}
-		});
-        Button menueau = (Button) findViewById(R.id.bteau);
-        menueau.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View arg0) {
-				Intent changeActivity = new Intent(getApplicationContext(), Quest_eau_domicile.class);
-				startActivity(changeActivity);
-				finish();
-			}
-		});
-        Button menuequip = (Button) findViewById(R.id.btequip);
-        menuequip.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View arg0) {
-				Intent changeActivity = new Intent(getApplicationContext(), Quest_equipement.class);
-				startActivity(changeActivity);
-				finish();
-			}
-		});
-        Button menutext = (Button) findViewById(R.id.bttext);
-        menutext.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View arg0) {
-				Intent changeActivity = new Intent(getApplicationContext(), Quest_textile.class);
-				startActivity(changeActivity);
-				finish();
-			}
-		});  
+	menualim.setOnClickListener(new OnClickListener() {
+		@Override
+		public void onClick(View arg0) {
+		Intent changealim = new Intent(getApplicationContext(), Quest_alimentation.class);
+		startActivity(changealim);
+		finish();
+		}
+	});
+	Button menueau = (Button) findViewById(R.id.bteau);
+	menueau.setOnClickListener(new OnClickListener() {
+		@Override
+		public void onClick(View arg0) {
+		Intent changeau = new Intent(getApplicationContext(), Quest_eau_domicile.class);
+		startActivity(changeau);
+		finish();
+		}
+	});
+	Button menuequip = (Button) findViewById(R.id.btequip);
+	menuequip.setOnClickListener(new OnClickListener() {
+	@Override
+	public void onClick(View arg0) {
+		Intent changequip = new Intent(getApplicationContext(), Quest_equipement.class);
+		startActivity(changequip);
+		finish();
+		}	
+	});
+	Button menutext = (Button) findViewById(R.id.bttext);
+	menutext.setOnClickListener(new OnClickListener() {
+		@Override
+		public void onClick(View arg0) {
+		Intent changetext = new Intent(getApplicationContext(), Quest_textile.class);
+		startActivity(changetext);
+		finish();
+		}	
+	});  
         
      ////////////// Spinner pour Textile ///////////////////////////////////////////////
         

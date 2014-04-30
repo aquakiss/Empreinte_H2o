@@ -16,30 +16,35 @@
             android:id="@+id/btalim"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/bouffe" />
         
         <Button
             android:id="@+id/bttext"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginRight="15dp"
             android:background="@drawable/vet" />
 
         <Button
             android:id="@+id/bteau"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginRight="15dp"
             android:background="@drawable/eau" />
 
         <Button
             android:id="@+id/btequip"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginRight="15dp"
             android:background="@drawable/multi" />
+        <Button
+            android:id="@+id/btgraph"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/graphe" />
     </LinearLayout>
                 <TableLayout
                     android:layout_width="wrap_content"

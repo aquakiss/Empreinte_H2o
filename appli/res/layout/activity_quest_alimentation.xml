@@ -50,34 +50,39 @@
             android:layout_weight="0.68"
             android:orientation="horizontal" >
 
-        <Button
+       <Button
             android:id="@+id/btalim"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="1dp"
             android:background="@drawable/bouffe" />
         
         <Button
             android:id="@+id/bttext"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginRight="8dp"
             android:background="@drawable/vet" />
 
         <Button
             android:id="@+id/bteau"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginRight="7dp"
             android:background="@drawable/eau" />
 
         <Button
             android:id="@+id/btequip"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginRight="7dp"
             android:background="@drawable/multi" />
+        <Button
+            android:id="@+id/btgraph"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/graphe" />
     </LinearLayout>
 
         <TextView
