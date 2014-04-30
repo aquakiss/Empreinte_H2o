@@ -5,5 +5,7 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="C:/Users/noupi/Desktop/Stage_Appli_Android/Travail_Android/Json/lib/jackson-core-asl-1.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/noupi/Desktop/Stage_Appli_Android/Travail_Android/Json/lib/jackson-mapper-asl-1.8.5.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

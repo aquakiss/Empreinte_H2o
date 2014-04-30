@@ -41,13 +41,14 @@
             android:id="@+id/bteau"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginRight="8dp"
             android:background="@drawable/eau" />
 
         <Button
             android:id="@+id/btequip"
             android:layout_width="50dp"
             android:layout_height="50dp"
+            android:layout_marginRight="2dp"
             android:background="@drawable/multi" />
         <Button
             android:id="@+id/btgraph"
@@ -217,13 +218,13 @@
 							    			    android:layout_height="wrap_content"
 							    			    android:layout_marginLeft="45dp"
 							    			    android:ems="10"
-							    			    android:hint="@string/oui" />
+							    			    android:hint="@string/comb" />
 
 							    			<EditText
 							    			    android:id="@+id/editText2"
 							    			    android:layout_width="wrap_content"
 							    			    android:layout_height="wrap_content"
-							    			    android:hint="@string/oui"
+							    			    android:hint="@string/combmois"
 							    			    android:layout_marginLeft="45dp" >
 
 							    			    <requestFocus />
@@ -262,13 +263,13 @@
 							    			    android:layout_height="wrap_content"
 							    			    android:layout_marginLeft="35dp"
 							    			    android:ems="10"
-							    			    android:hint="@string/oui" />
+							    			    android:hint="@string/comb" />
 
 							    			<EditText
 							    			    android:id="@+id/editText5"
 							    			    android:layout_width="wrap_content"
 							    			    android:layout_height="wrap_content"
-							    			    android:hint="@string/oui"
+							    			    android:hint="@string/combmois"
 							    			    android:layout_marginLeft="45dp" >
 
 							    			    <requestFocus />
@@ -307,13 +308,13 @@
 							    			    android:layout_height="wrap_content"
 							    			    android:layout_marginLeft="49dp"
 							    			    android:ems="10"
-							    			    android:hint="@string/oui" />
+							    			    android:hint="@string/comb" />
 
 							    			<EditText
 							    			    android:id="@+id/editText7"
 							    			    android:layout_width="wrap_content"
 							    			    android:layout_height="wrap_content"
-							    			    android:hint="@string/oui"
+							    			    android:hint="@string/combmois"
 							    			    android:layout_marginLeft="45dp" >
 
 							    			    <requestFocus />
@@ -352,13 +353,13 @@
 							    			    android:layout_height="wrap_content"
 							    			    android:layout_marginLeft="29dp"
 							    			    android:ems="10"
-							    			    android:hint="@string/oui" />
+							    			    android:hint="@string/comb" />
 
 							    			<EditText
 							    			    android:id="@+id/editText11"
 							    			    android:layout_width="wrap_content"
 							    			    android:layout_height="wrap_content"
-							    			    android:hint="@string/oui"
+							    			    android:hint="@string/combmois"
 							    			    android:layout_marginLeft="45dp" >
 
 							    			    <requestFocus />
@@ -397,13 +398,13 @@
 							    			    android:layout_height="wrap_content"
 							    			    android:layout_marginLeft="52dp"
 							    			    android:ems="10"
-							    			    android:hint="@string/oui" />
+							    			    android:hint="@string/comb" />
 
 							    			<EditText
 							    			    android:id="@+id/editText14"
 							    			    android:layout_width="wrap_content"
 							    			    android:layout_height="wrap_content"
-							    			    android:hint="@string/oui"
+							    			    android:hint="@string/combmois"
 							    			    android:layout_marginLeft="46dp" >
 
 							    			    <requestFocus />
@@ -443,13 +444,13 @@
 							    			    android:layout_height="wrap_content"
 							    			    android:layout_marginLeft="47dp"
 							    			    android:ems="10"
-							    			    android:hint="@string/oui" />
+							    			    android:hint="@string/comb" />
 
 							    			<EditText
 							    			    android:id="@+id/editText17"
 							    			    android:layout_width="wrap_content"
 							    			    android:layout_height="wrap_content"
-							    			    android:hint="@string/oui"
+							    			    android:hint="@string/combmois"
 							    			    android:layout_marginLeft="46dp" >
 
 							    			    <requestFocus />
@@ -487,13 +488,13 @@
 							    			    android:layout_height="wrap_content"
 							    			    android:layout_marginLeft="28dp"
 							    			    android:ems="10"
-							    			    android:hint="@string/oui" />
+							    			    android:hint="@string/comb" />
 
 							    			<EditText
 							    			    android:id="@+id/editText20"
 							    			    android:layout_width="wrap_content"
 							    			    android:layout_height="wrap_content"
-							    			    android:hint="@string/oui"
+							    			    android:hint="@string/combmois"
 							    			    android:layout_marginLeft="48dp" >
 
 							    			    <requestFocus />

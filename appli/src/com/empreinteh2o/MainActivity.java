@@ -70,7 +70,17 @@ public class MainActivity extends Activity {
 		finish();
 		}
 	});
-       
+    
+	Button menugrap = (Button) findViewById(R.id.btgraph);
+	menugrap.setOnClickListener(new OnClickListener() {
+		@Override
+		public void onClick(View arg0) {
+		Intent changeActivity = new Intent(getApplicationContext(), Graphe.class);
+		startActivity(changeActivity);
+		finish();
+		}
+	});
+	
 	}
 
     @Override

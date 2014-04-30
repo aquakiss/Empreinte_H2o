@@ -79,12 +79,12 @@ public final class R {
         public static final int action_settings_accueil=0x7f0900da;
         public static final int action_settings_apropos=0x7f0900dc;
         public static final int action_settings_quit=0x7f0900db;
-        public static final int alim_precedent_bt=0x7f090013;
-        public static final int alim_suivant_bt=0x7f090014;
+        public static final int alim_precedent_bt=0x7f090014;
+        public static final int alim_suivant_bt=0x7f090015;
         public static final int btalim=0x7f090007;
         public static final int bteau=0x7f090009;
         public static final int btequip=0x7f09000a;
-        public static final int btgraph=0x7f090015;
+        public static final int btgraph=0x7f090012;
         public static final int bttext=0x7f090008;
         public static final int button1=0x7f090004;
         public static final int button2=0x7f090003;
@@ -153,7 +153,7 @@ public final class R {
         public static final int linearLayout2=0x7f09000d;
         public static final int linearLayout3=0x7f09001a;
         public static final int linearLayout4=0x7f0900c1;
-        public static final int linearLayout5=0x7f090012;
+        public static final int linearLayout5=0x7f090013;
         public static final int listView1=0x7f0900d8;
         public static final int ll1=0x7f09004e;
         public static final int ll2=0x7f090051;

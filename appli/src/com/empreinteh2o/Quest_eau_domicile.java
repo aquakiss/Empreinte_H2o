@@ -77,7 +77,16 @@ public class Quest_eau_domicile extends Activity {
 	startActivity(changetext);
 	finish();
 	}
-	});  
+	}); 
+	Button menugra = (Button) findViewById(R.id.btgraph);
+	menugra.setOnClickListener(new OnClickListener() {
+	@Override
+	public void onClick(View arg0) {
+	Intent changegra = new Intent(getApplicationContext(), Graphe.class);
+	startActivity(changegra);
+	finish();
+	}
+	});
         
 	///////////////////////////////////// Spinner 11spinner////////////////////////////////////////////////////
 	Spinner spinneaui1 = (Spinner) findViewById(R.id.spinrob1);
