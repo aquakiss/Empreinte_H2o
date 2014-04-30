@@ -94,5 +94,7 @@
                   android:layout_weight="1"
                   android:text="@string/conseils" />
           </LinearLayout>
+         
+          </LinearLayout>
     
 </ScrollView>
