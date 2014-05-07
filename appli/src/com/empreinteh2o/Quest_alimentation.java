@@ -128,7 +128,7 @@ public class Quest_alimentation extends Activity {
 
     //Création d'un SimpleAdapter qui se chargera de mettre les items présent dans notre list (listItem) dans la vue affichageitem
     SimpleAdapter mSchedule = new SimpleAdapter (this.getBaseContext(), listItem, R.layout.activity_alim_lv_item,
-           new String[] {"titre"}, new int[] {R.id.titre});
+    new String[] {"titre"}, new int[] {R.id.titre});
 
     //On attribut à notre listView l'adapter que l'on vient de créer
     maListViewPersoAlim.setAdapter(mSchedule);
