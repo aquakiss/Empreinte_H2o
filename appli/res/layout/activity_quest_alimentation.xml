@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,35 +7,11 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Quest_alimentation" >
-    
-    <LinearLayout
-        android:id="@+id/linearLayout5"
-        style="?android:attr/buttonBarStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true" >
-
-        <Button
-            android:id="@+id/alim_precedent_bt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.45"
-            android:background="#99CCCC"
-            style="?android:attr/buttonBarButtonStyle"
-            android:text="@string/bt_precedent" />
-
-        <Button
-            android:id="@+id/alim_suivant_bt"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.55"
-            android:background="#99CCCC"
-            android:text="@string/bt_suivant" />
-        
-    </LinearLayout>
+   
+    <LinearLayout  
+   	 	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
 
     <LinearLayout
         android:id="@+id/linearLayout1"
@@ -156,35 +132,183 @@
 
     </LinearLayout>
     
-    <RelativeLayout
-        android:id="@+id/LinLayListe"
+    <LinearLayout
+        android:id="@+id/part1"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/linearLayout1" >
-
-        <ListView
-            android:id="@+id/LV_q_alimentation"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp" >
-        </ListView>
+        android:layout_height="wrap_content"        
+        android:orientation="vertical" >
 
         <TextView
             android:id="@+id/Questalimlist1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="20dp"
             android:text="@string/Aq3nom"
             android:textSize="20sp" />
 
+        
          <TextView
              android:id="@+id/Questalimlist2"
              android:layout_width="wrap_content"
              android:layout_marginLeft="100dp"
              android:layout_height="wrap_content"
              android:text="@string/Aqcol2"
-             android:textSize="20sp" />
+             android:textSize="18sp" />
+         
+         <LinearLayout
+        android:id="@+id/part1_q1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+            
+         <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="20dp"
+            android:text="@string/Aq3nom"
+            android:textSize="20sp" />
 
-        </RelativeLayout>
+        
+         <TextView
+             android:id="@+id/question2"
+             android:layout_width="wrap_content"
+             android:layout_marginLeft="100dp"
+             android:layout_height="wrap_content"
+             android:text="@string/Aqcol2"
+             android:textSize="18sp" /> 
+             
+         </LinearLayout>
 
-</RelativeLayout>
+        </LinearLayout> 
+        
+        <LinearLayout
+        android:id="@+id/part2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="20dp"
+            android:text="@string/Aq4nom"
+            android:textSize="20sp" />
+
+        
+         <TextView
+             android:id="@+id/textl2_1"
+             android:layout_width="wrap_content"
+             android:layout_marginLeft="100dp"
+             android:layout_height="wrap_content"
+             android:text="@string/Aqcol2"
+             android:textSize="18sp" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+        android:id="@+id/part3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textl3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="20dp"
+            android:text="@string/Aq5nom"
+            android:textSize="20sp" />
+
+        
+         <TextView
+             android:id="@+id/textl3_2"
+             android:layout_width="wrap_content"
+             android:layout_marginLeft="100dp"
+             android:layout_height="wrap_content"
+             android:text="@string/Aqcol2"
+             android:textSize="18sp" />
+
+        </LinearLayout>
+
+       <LinearLayout
+        android:id="@+id/part4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textl4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/Aq6nom"
+            android:textSize="20sp" />
+
+         <TextView
+             android:id="@+id/textl4_2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="18sp" />
+
+        </LinearLayout>
+        
+      <LinearLayout
+        android:id="@+id/part5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textl5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="20dp"
+            android:text="@string/Aq7nom"
+            android:textSize="20sp" />
+
+        
+         <TextView
+             android:id="@+id/textl5_2"
+             android:layout_width="wrap_content"
+             android:layout_marginLeft="100dp"
+             android:layout_height="wrap_content"
+             android:text="@string/Aqcol2"
+             android:textSize="18sp" />
+
+        </LinearLayout>
+        
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/alim_precedent_bt"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.45"
+            android:background="#99CCCC"
+            android:text="@string/bt_precedent" />
+
+        <Button
+            android:id="@+id/alim_suivant_bt"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.55"
+            android:background="#99CCCC"
+            android:text="@string/bt_suivant" />
+    </LinearLayout>
+        
+    </LinearLayout>
+
+</ScrollView>
