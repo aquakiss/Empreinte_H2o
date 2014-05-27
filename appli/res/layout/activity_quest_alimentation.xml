@@ -137,83 +137,459 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"        
         android:orientation="vertical" >
-
+        
+	<LinearLayout
+        android:id="@+id/part1_titre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:orientation="horizontal" >
+        
         <TextView
-            android:id="@+id/Questalimlist1"
+            android:id="@+id/Questalimlist1_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"            
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="16dp" 
             android:text="@string/Aq3nom"
             android:textSize="20sp" />
 
         
          <TextView
-             android:id="@+id/Questalimlist2"
+             android:id="@+id/Questalimlist1_2"
              android:layout_width="wrap_content"
-             android:layout_marginLeft="100dp"
+             android:layout_marginLeft="70dp"
              android:layout_height="wrap_content"
              android:text="@string/Aqcol2"
-             android:textSize="18sp" />
-         
+             android:textSize="20sp" />
+        </LinearLayout>
+        
          <LinearLayout
         android:id="@+id/part1_q1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
+        android:orientation="horizontal" >
             
          <TextView
             android:id="@+id/question1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginLeft="16dp"            
-            android:layout_marginRight="20dp"
-            android:text="@string/Aq3nom"
-            android:textSize="20sp" />
+            android:layout_marginRight="25dp"
+            android:text="@string/Aq3c1"
+            android:textSize="14sp" />
 
         
-         <TextView
-             android:id="@+id/question2"
+         <EditText
+             android:id="@+id/oneed"
              android:layout_width="wrap_content"
-             android:layout_marginLeft="100dp"
-             android:layout_height="wrap_content"
-             android:text="@string/Aqcol2"
-             android:textSize="18sp" /> 
+             android:layout_height="match_parent"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
+         
+          <LinearLayout
+        android:id="@+id/part1_q2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+         <TextView
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="20dp"
+            android:text="@string/Aq3c2"
+            android:textSize="14sp" />
+
+        
+         <EditText
+             android:id="@+id/oneedit2"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
+         
+           <LinearLayout
+        android:id="@+id/part1_q3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+         <TextView
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="20dp"
+            android:text="@string/Aq3c3"
+            android:textSize="14sp" />
+
+        
+         <EditText
+             android:id="@+id/oneedit3"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
+         
+            <LinearLayout
+        android:id="@+id/part1_q4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+         <TextView
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="30dp"
+            android:text="@string/Aq3c4"
+            android:textSize="14sp" />
+
+        
+         <EditText
+             android:id="@+id/oneedit4"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
+         
+             <LinearLayout
+        android:id="@+id/part1_q5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+         <TextView
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="75dp"
+            android:text="@string/Aq3c5"
+            android:textSize="14sp" />
+
+        
+         <EditText
+             android:id="@+id/oneedit5"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
              
          </LinearLayout>
 
         </LinearLayout> 
         
-        <LinearLayout
+       <LinearLayout
         android:id="@+id/part2"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"  
+        android:layout_marginTop="10dp"      
+        android:orientation="vertical" >
+        
+       <LinearLayout 
+        android:id="@+id/part2_titre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textl2"
+            android:id="@+id/Questalimlist2_1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"            
-            android:layout_marginRight="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"  
+            android:layout_marginRight="10dp"
             android:text="@string/Aq4nom"
             android:textSize="20sp" />
+         
+        </LinearLayout> 
+         <LinearLayout
+        android:id="@+id/part2_q1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+         <TextView
+            android:id="@+id/twoquestion1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="20dp"
+            android:text="@string/Aq4c1"
+            android:textSize="14sp" />
 
         
-         <TextView
-             android:id="@+id/textl2_1"
+         <EditText
+             android:id="@+id/twoeditq1"
              android:layout_width="wrap_content"
-             android:layout_marginLeft="100dp"
-             android:layout_height="wrap_content"
-             android:text="@string/Aqcol2"
-             android:textSize="18sp" />
+             android:layout_height="match_parent"
+             android:layout_marginLeft="35dp"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
+         
+         <LinearLayout
+        android:id="@+id/part2_q2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+         <TextView
+            android:id="@+id/twoquestion2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="20dp"
+            android:text="@string/Aq4c2"
+            android:textSize="14sp" />
 
+        
+         <EditText
+             android:id="@+id/twoeditq2"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginLeft="2dp"
+             android:hint="@string/comb"
+             android:textSize="12sp" /> 
+             
+         </LinearLayout>
+         
+         <LinearLayout
+        android:id="@+id/twopart1_q3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+         <TextView
+            android:id="@+id/twoquestion3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="20dp"
+            android:text="@string/Aq4c3"
+            android:textSize="14sp" />
+
+        
+         <EditText
+             android:id="@+id/twoEditq3"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginLeft="20dp"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
+         
+         <LinearLayout
+        android:id="@+id/twopart1_q4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+         <TextView
+            android:id="@+id/twoquestion4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="20dp"
+            android:text="@string/Aq4c4"
+            android:textSize="14sp" />
+
+        
+         <EditText
+             android:id="@+id/twoEditq4"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginLeft="35dp"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
+         
+         <LinearLayout
+        android:id="@+id/part2_q5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+         <TextView
+            android:id="@+id/twoquestion5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="20dp"
+            android:text="@string/Aq4c5"
+            android:textSize="14sp" />
+
+        
+         <EditText
+             android:id="@+id/twoEditq5"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginLeft="35dp"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
+         
+          <LinearLayout
+        android:id="@+id/part2_q6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+         <TextView
+            android:id="@+id/twoquestion6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="20dp"
+            android:text="@string/Aq4c6"
+            android:textSize="14sp" />
+
+        
+         <EditText
+             android:id="@+id/twoEditq6"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
+          <LinearLayout
+        android:id="@+id/part2_q7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+         <TextView
+            android:id="@+id/twoquestion7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="20dp"
+            android:text="@string/Aq4c7"
+            android:textSize="14sp" />
+
+        </LinearLayout>
+        
+         <LinearLayout
+        android:id="@+id/part2_q7_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+         <EditText
+             android:id="@+id/twoEditq7"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginLeft="185dp"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
+         
+         <LinearLayout
+        android:id="@+id/part2_q8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="10dp">
+            
+         <TextView
+            android:id="@+id/twoquestion8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="120dp"
+            android:text="@string/Aq4c8"
+            android:textSize="14sp" />
+
+        
+         <EditText
+             android:id="@+id/twoEditq8"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
+         <LinearLayout
+        android:id="@+id/part2_q9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+         <TextView
+            android:id="@+id/twoquestion9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="20dp"
+            android:text="@string/Aq4c9"
+            android:textSize="14sp" />
+
+        
+         <EditText
+             android:id="@+id/twoEditq9"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
+         <LinearLayout
+        android:id="@+id/part2_q10"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+         <TextView
+            android:id="@+id/twoquestion10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="20dp"
+            android:text="@string/Aq4c10"
+            android:textSize="14sp" />
+
+        </LinearLayout>
+         <LinearLayout
+        android:id="@+id/part2_q10_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+         <EditText
+             android:id="@+id/twoEditq10"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginLeft="180dp"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
         </LinearLayout>
         
         <LinearLayout
         android:id="@+id/part3"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+         
+        <LinearLayout
+        android:id="@+id/part3_titre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
 
         <TextView
             android:id="@+id/textl3"
@@ -223,15 +599,84 @@
             android:layout_marginRight="20dp"
             android:text="@string/Aq5nom"
             android:textSize="20sp" />
+         
+         </LinearLayout>
+         
+          <LinearLayout
+        android:id="@+id/part3_q1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+         <TextView
+            android:id="@+id/thirdquestion1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="110dp"
+            android:text="@string/Aq5c1"
+            android:textSize="14sp" />
 
         
-         <TextView
-             android:id="@+id/textl3_2"
+         <EditText
+             android:id="@+id/thirdedit"
              android:layout_width="wrap_content"
-             android:layout_marginLeft="100dp"
-             android:layout_height="wrap_content"
-             android:text="@string/Aqcol2"
-             android:textSize="18sp" />
+             android:layout_height="match_parent"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
+         
+         <LinearLayout
+        android:id="@+id/part3_q2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+         <TextView
+            android:id="@+id/thirdquestion2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="20dp"
+            android:text="@string/Aq5c2"
+            android:textSize="14sp" />
+
+        
+         <EditText
+             android:id="@+id/thirdedit2"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
+         
+         <LinearLayout
+        android:id="@+id/part3_q3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+         <TextView
+            android:id="@+id/thirdquestion3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="20dp"
+            android:text="@string/Aq5c3"
+            android:textSize="14sp" />
+
+        
+         <EditText
+             android:id="@+id/thirdedit3"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
+          
 
         </LinearLayout>
 
@@ -239,22 +684,99 @@
         android:id="@+id/part4"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:layout_marginTop="10dp" >
+
+        <LinearLayout 
+        android:id="@+id/part4_titre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textl4"
+            android:id="@+id/Questalimlist4_1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"  
+            android:layout_marginRight="10dp"
             android:text="@string/Aq6nom"
             android:textSize="20sp" />
-
+         
+        </LinearLayout>
+        
+         <LinearLayout
+        android:id="@+id/part4_q1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
          <TextView
-             android:id="@+id/textl4_2"
+            android:id="@+id/fourquestion1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="20dp"
+            android:text="@string/Aq6c1"
+            android:textSize="14sp" />
+
+        
+         <EditText
+             android:id="@+id/fouredit1"
              android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:textSize="18sp" />
+             android:layout_height="match_parent"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
+         
+          <LinearLayout
+        android:id="@+id/part4_q2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+         <TextView
+            android:id="@+id/fourquestion2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="80dp"
+            android:text="@string/Aq6c2"
+            android:textSize="14sp" />
+
+        
+         <EditText
+             android:id="@+id/fouredit2"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
+          <LinearLayout
+        android:id="@+id/part4_q3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+         <TextView
+            android:id="@+id/fourquestion3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="60dp"
+            android:text="@string/Aq6c3"
+            android:textSize="14sp" />
+
+        
+         <EditText
+             android:id="@+id/fouredit3"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
 
         </LinearLayout>
         
@@ -262,33 +784,96 @@
         android:id="@+id/part5"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
+        android:orientation="vertical" 
+        android:layout_marginTop="8dp">
+
+        <LinearLayout 
+        android:id="@+id/part5_titre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textl5"
+            android:id="@+id/Questalimlist5_1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"            
-            android:layout_marginRight="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"  
+            android:layout_marginRight="10dp"
             android:text="@string/Aq7nom"
             android:textSize="20sp" />
-
+         
+        </LinearLayout>
         
+         <LinearLayout
+        android:id="@+id/part5_q1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
          <TextView
-             android:id="@+id/textl5_2"
+            android:id="@+id/fivequestion1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="10dp"
+            android:text="@string/Aq7c1"
+            android:textSize="14sp" />
+
+        </LinearLayout>
+         <LinearLayout
+        android:id="@+id/part5_q1_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+         <EditText
+             android:id="@+id/fiveedit1"
              android:layout_width="wrap_content"
-             android:layout_marginLeft="100dp"
-             android:layout_height="wrap_content"
-             android:text="@string/Aqcol2"
-             android:textSize="18sp" />
+             android:layout_height="match_parent"
+             android:layout_marginLeft="180dp"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
+          <LinearLayout
+        android:id="@+id/part5_q2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+            
+         <TextView
+            android:id="@+id/fivequestion2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"            
+            android:layout_marginRight="10dp"
+            android:text="@string/Aq7c2"
+            android:textSize="14sp" />
+         </LinearLayout>
+         
+		 <LinearLayout
+        android:id="@+id/part5_q2_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+         <EditText
+             android:id="@+id/fiveedit2"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginLeft="180dp"
+             android:hint="@string/comb"
+             android:textSize="15sp" /> 
+             
+         </LinearLayout>
 
         </LinearLayout>
         
     <LinearLayout
-        android:id="@+id/linearLayout5"
+        android:id="@+id/Lbouton"
         style="?android:attr/buttonBarStyle"
         android:layout_width="match_parent"
-        android:layout_height="fill_parent" >
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
 
         <Button
             android:id="@+id/alim_precedent_bt"

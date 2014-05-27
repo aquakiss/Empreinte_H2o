@@ -95,7 +95,7 @@ public class Quest_alimentation extends Activity {
 //////////////ListeView layout Alimentation ////////////////////////////////////////////
     
   //Récupération de la listview créée dans le fichier main.xml
-    maListViewPersoAlim = (ListView) findViewById(R.id.LV_q_alimentation);
+    /*maListViewPersoAlim = (ListView) findViewById(R.id.LV_q_alimentation);
 
     //Création de la ArrayList qui nous permettra de remplire la listView
     ArrayList<HashMap<String, String>> listItem = new ArrayList<HashMap<String, String>>();
@@ -131,7 +131,7 @@ public class Quest_alimentation extends Activity {
     new String[] {"titre"}, new int[] {R.id.titre});
 
     //On attribut à notre listView l'adapter que l'on vient de créer
-    maListViewPersoAlim.setAdapter(mSchedule);
+    maListViewPersoAlim.setAdapter(mSchedule);*/
     
    }
 
